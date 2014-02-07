@@ -36,7 +36,7 @@ public class Cutter {
         }
     }
 
-    public void cutIntoOneFile() throws IOException{
+    public void cutIntoOneFile() throws IOException {
         PrintWriter writer = new PrintWriter(this.outPath, "UTF-8");
 
         InputStream    fis;
@@ -78,10 +78,8 @@ public class Cutter {
             throw new AssertionError();
         }
 
-
         InputStream    fis;
         BufferedReader br;
-
 
         for(String fileName: files) {
             File file = new File(this.filesDir + "/" + fileName);

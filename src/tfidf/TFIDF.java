@@ -68,7 +68,7 @@ public class TFIDF {
         if(appearTime == 0) {
             return 0.0;
         } else {
-            return (double) fileCount / appearTime;
+            return Math.log((double) fileCount / appearTime);
         }
     }
 

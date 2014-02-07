@@ -70,27 +70,8 @@ public class KeyWord {
         System.out.println("words:" + wList.size());
 
         MS = getMatrix(0.0, sList.size());
-//        MW = getMatrix(0.0, wList.size());
         SMW = DoubleFactory2D.sparse.make(wList.size(), wList.size());
     }
-//
-//
-//    private void testSparse() {
-//        for(int i = 0; i < this.MW.size(); i++) {
-//            for(int j = 0; j < this.MW.size(); j++) {
-//                if(MW.get(i).get(j) != SMW.get(i, j)) {
-//                    System.out.println("i:" + i + " j:" + j);
-//                    System.out.println("SMW:" + MW.get(i).get(j) + " SMW:" + SMW.get(i, j));
-//                }
-//
-//                if(MW.get(i).get(j) != 0) {
-//                    System.out.println("i:" + i + " j:" + j);
-//                    System.out.println("MW:" + MW.get(i).get(j) + " SMW:" + SMW.get(i, j));
-//
-//                }
-//            }
-//        }
-//    }
 
     public ArrayList<SimpleEntry<String, Double>> calculateKeyWord() {
         this.fillMS();
@@ -285,34 +266,6 @@ public class KeyWord {
         String key = i.toString() + " " + j.toString();
         return key;
     }
-
-//    public void fillMW() {
-//        System.out.println("fillMW... size:" + wList.size());
-//        Integer smallcount = 0;
-//        for (int i=0; i<wList.size(); i++) {
-//            for (int j=i; j<wList.size(); j++) {
-//                if(i == j) {
-//                    SMW.set(i).set(j, 0.0);
-//                } else {
-//                    Double sij = support(i, j);
-//                    if(sij < supportThreshold) {
-//                        smallcount++;
-//                    }
-//                    MW.get(i).set(j, sij);
-//                    MW.get(j).set(i, sij);
-//                }
-//            }
-//            if(i - i / log_granularity * log_granularity == 0) {
-//                System.out.println("    filled:" + i + "/" + wList.size());
-//            }
-//        }
-//
-//        System.out.println("small count:" + smallcount);
-//        System.out.println("total size:" + Math.pow(wList.size(), 2));
-//
-//
-//        normalization(MW);
-//    }
 
     public void fillSparseMW() {
 
