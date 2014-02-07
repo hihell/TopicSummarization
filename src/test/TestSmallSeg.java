@@ -9,18 +9,38 @@ package test;
  */
 
 
-import fx.sunjoy.SmallSeg;
-import java.util.List;
+
+import java.util.ArrayList;
+import cutter.IKWordSplitter;
+import cutter.SmallSegSplitter;
 
 public class TestSmallSeg {
 
     public static void main(String args[]) {
-        String input = "青岛有几个媒体人，天天在羞辱“媒体”这个行业，一出事就高喊：“青岛雄起！青岛奋进！青岛迸发！青岛挺住！爆炸让你更坚强！”那是52个鲜活生命啊，52个家庭的灭顶之灾啊，尸骨未寒、责任未明、搜救未完、人心未暖……你说你雄起奋进挺住迸发你MLGB啊";
-        List<String> result = SmallSeg.cut(input);
 
-        for (String w : result) {
-            System.out.println(w);
+        SmallSegSplitter sss = new SmallSegSplitter();
+        IKWordSplitter iks = new IKWordSplitter();
+        String sen = "当我问起这是否意味着今后人们的打字习惯需要改变时，Thad 说：“手机已经改变了我们打字的习惯。";
+        ArrayList<String> ssswords = sss.splitSentence(sen);
+        ArrayList<String> ikswords = iks.splitSentence(sen);
+
+        System.out.println(ssswords);
+        System.out.println(ikswords);
+
+
+        ArrayList<String> diffList = new ArrayList<String>();
+
+        for(String w : ssswords) {
+            if (ikswords.contains(w)) {
+                ikswords.remove(w);
+            } else {
+                diffList.add(w);
+            }
         }
+
+        diffList.addAll(ikswords);
+
+        System.out.println(diffList);
     }
 
 }

@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="498bd0fd-f450-47e9-a1ce-6208a5ca4337" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/IKAnalyzer2012_u6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cutter/IKWordSplitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cutter/WordSplitter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-final.others" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-final.phi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-final.tassign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-final.theta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/model-final.twords" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/trndoc.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LDAFiles/wordmap.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/109.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/136.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/155.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/157.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/166.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/205.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/249.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/94.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/1/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/2/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/3/102.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/4/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/5/66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/6/69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/109.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/136.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/155.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/157.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/166.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/205.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/249.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/94.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/1/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/2/102.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/2/66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/2/69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConvergeResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cutResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/157.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/2/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/2/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/3/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/3/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/3/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/3/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/4/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/4/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/4/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/4/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/4/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/5/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/5/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/5/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/5/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/6/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/6/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/7/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/7/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/7/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/8/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/8/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/8/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/157.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/0/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/2/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConvergeResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eigenV.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/136.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/205.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/0/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/1/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/249.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/2/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/155.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/166.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/94.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/102.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/109.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/119.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/120.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/134.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/136.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/140.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/143.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/145.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/146.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/147.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/148.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/149.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/150.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/151.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/152.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/153.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/154.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/155.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/156.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/158.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/159.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/160.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/161.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/162.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/163.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/164.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/165.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/166.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/167.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/168.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/169.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/170.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/171.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/172.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/174.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/175.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/176.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/177.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/178.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/179.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/180.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/181.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/182.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/183.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/185.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/186.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/187.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/188.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/189.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/190.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/192.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/193.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/194.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/195.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/196.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/197.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/198.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/199.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/200.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/201.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/202.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/203.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/204.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/205.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/206.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/207.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/208.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/209.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/211.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/215.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/219.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/221.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/222.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/224.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/226.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/227.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/234.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/235.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/236.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/237.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/238.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/239.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/240.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/241.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/242.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/243.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/244.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/245.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/246.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/249.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/250.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/251.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/94.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/99.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/116.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/117.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/1/95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/102.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/109.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/111.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/2/69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConvergeResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/topK.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/topicFileTable.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/src/cluster/LDA/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Constants.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Constants.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Conversion.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Conversion.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Dictionary.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Dictionary.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Document.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Document.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Estimator.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Estimator.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/FileProcess.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/FileProcess.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Inferencer.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Inferencer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/LDA.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/LDA.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/LDACmdOption.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/LDACmdOption.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/LDADataset.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/LDADataset.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Model.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Model.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/Pair.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/Pair.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/bin/jgibblda/TopicPrint.class" afterPath="$PROJECT_DIR$/src/cluster/LDA/bin/jgibblda/TopicPrint.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Constants.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Conversion.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Conversion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Dictionary.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Dictionary.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Document.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Document.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Estimator.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Estimator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/FileProcess.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/FileProcess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Inferencer.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Inferencer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/LDA.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/LDACmdOption.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDACmdOption.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/LDADataset.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDADataset.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Model.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Model.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/Pair.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Pair.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LDA/src/jgibblda/TopicPrint.java" afterPath="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/TopicPrint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/birch/BIRCH.java" afterPath="$PROJECT_DIR$/src/cluster/BIRCH.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dbscan/DBScan.java" afterPath="$PROJECT_DIR$/src/cluster/DBScan.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/kmeans/KMProcessor.java" afterPath="$PROJECT_DIR$/src/cluster/KMProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Controller.java" afterPath="$PROJECT_DIR$/src/controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/converger/Converger.java" afterPath="$PROJECT_DIR$/src/converger/Converger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cutter/Cutter.java" afterPath="$PROJECT_DIR$/src/cutter/Cutter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestSmallSeg.java" afterPath="$PROJECT_DIR$/src/test/TestSmallSeg.java" />
+    </list>
+    <ignored path="TopicSummarization.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TopicSummarization" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="WordSplitter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cutter/WordSplitter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="44" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SmallSegSplitter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cutter/SmallSegSplitter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="11" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LDA.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="28" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Controller.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="254" column="80" selection-start="9162" selection-end="9162" vertical-scroll-proportion="0.65606594" vertical-offset="2923" max-vertical-offset="6555">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BIRCH.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cluster/BIRCH.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="54" column="36" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="2055">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DBScan.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cluster/DBScan.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="41" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="2295">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="KMProcessor.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cluster/KMProcessor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="3255">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IKWordSplitter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cutter/IKWordSplitter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="11" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#406#414#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Converger.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="20" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="2265">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Converger.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="114" column="72" selection-start="3392" selection-end="3392" vertical-scroll-proportion="1.9042317" vertical-offset="0" max-vertical-offset="2265">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="KeyWord.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/keywords/KeyWord.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="64" column="32" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="2325" max-vertical-offset="7200">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cutter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cutter/Cutter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="51" selection-start="2011" selection-end="2011" vertical-scroll-proportion="-14.807693" vertical-offset="635" max-vertical-offset="2445">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/cutter/WordSplitter.java" />
+        <option value="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" />
+        <option value="$PROJECT_DIR$/src/cutter/IKWordSplitter.java" />
+        <option value="$PROJECT_DIR$/src/cutter/Cutter.java" />
+        <option value="$PROJECT_DIR$/src/test/TestSmallSeg.java" />
+        <option value="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/converger/Converger.java" />
+        <option value="$PROJECT_DIR$/src/cluster/BIRCH.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="2514" />
+    <option name="height" value="1418" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keywords" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cutter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Controller">
+    <configuration default="false" name="SmallSegSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cutter.SmallSegSplitter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TopicSummarization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSmallSeg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestSmallSeg" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TopicSummarization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Controller" />
+      <option name="VM_PARAMETERS" value="-Xmx4000m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TopicSummarization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.SmallSegSplitter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestSmallSeg" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Controller" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestSmallSeg" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SmallSegSplitter" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="498bd0fd-f450-47e9-a1ce-6208a5ca4337" name="Default" comment="" />
+      <created>1391759147625</created>
+      <updated>1391759147625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="2514" height="1418" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15088996" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30165914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/keywords/KeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="32" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="2325" max-vertical-offset="7200">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/WordSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/smallseg4j_0.6.jar!/fx/sunjoy/SmallSeg.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.058915947" vertical-offset="0" max-vertical-offset="1273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/IKWordSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/Cutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="51" selection-start="2011" selection-end="2011" vertical-scroll-proportion="-14.807693" vertical-offset="635" max-vertical-offset="2445">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="2265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster/BIRCH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster/DBScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster/KMProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="3255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestSmallSeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="71" selection-start="779" selection-end="779" vertical-scroll-proportion="0.53699285" vertical-offset="0" max-vertical-offset="838">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#768#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/SmallSegSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="28" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="80" selection-start="9162" selection-end="9162" vertical-scroll-proportion="0.65606594" vertical-offset="2923" max-vertical-offset="6555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TopicSummarization</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

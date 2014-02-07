@@ -1,7 +1,7 @@
 package cutter;
 
 /**
- * Created with IntelliJ IDEA.
+ * Created with IntelliJ IDEA.                                                               `
  * User: jiusi
  * Date: 25/11/2013
  * Time: 03:26
@@ -9,7 +9,7 @@ package cutter;
  */
 
 
-import fx.sunjoy.SmallSeg;
+
 
 import java.io.*;
 import java.nio.charset.Charset;
@@ -23,11 +23,13 @@ public class Cutter {
     public final String outPath = "./cutResult.txt";
     private File[] listOfFiles;
     private String filesDir;
+    private WordSplitter wordSplitter;
 
-    public Cutter(String filesDir) throws Exception{
+    public Cutter(String filesDir) throws Exception {
         File folder = new File(filesDir);
         this.listOfFiles = folder.listFiles();
         this.filesDir = filesDir;
+        this.wordSplitter = new IKWordSplitter();
 
         if(this.listOfFiles == null) {
             throw new Exception("ArticleNotFoundException");
@@ -52,7 +54,8 @@ public class Cutter {
 
                 while ((line = br.readLine()) != null) {
 
-                    List<String> cutResult = SmallSeg.cut(line);
+//                    List<String> cutResult = SmallSeg.cut(line);
+                    List<String> cutResult = wordSplitter.splitSentence(line);
 
 //                  write words, separate with space
                     for(String w : cutResult) {
@@ -91,7 +94,8 @@ public class Cutter {
                 ArrayList<String> sentenceList = this.cutIntoSentences(line);
 
                 for (String sentence : sentenceList) {
-                    List<String> cutResult = SmallSeg.cut(sentence);
+//                    List<String> cutResult = SmallSeg.cut(sentence);
+                    List<String> cutResult = wordSplitter.splitSentence(sentence);
                     Hashtable<String, Integer> sen = listIntoTable(cutResult);
                     sList.add(sen);
 

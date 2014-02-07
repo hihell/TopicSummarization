@@ -1,0 +1,7 @@
+﻿　　2009年，中国红基会社会监督委员会在京宣布成立。（资料图片）本报记者欧阳晓菲摄
+		var flash_vid = 'j0011fvxzdh', 
+			flash_title = '中国红十字会成立社会监督委员会 红会首次开门接受监督',
+			flash_pic = 'http://vpic.video.qq.com/123/j0011fvxzdh.png',
+			flash_hits = '36',
+			showVideoPic = false;
+

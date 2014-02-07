@@ -50,7 +50,7 @@ public class Converger {
     
 	private ArrayList<SimpleEntry<Integer, double[]>> getCentroidList() {
 		
-		ArrayList<SimpleEntry<Integer, double[]>> cenroidList = new ArrayList<SimpleEntry<Integer, double[]>>();
+		ArrayList<SimpleEntry<Integer, double[]>> centroidList = new ArrayList<SimpleEntry<Integer, double[]>>();
 
 		for (int i = 0; i < clusterList.size(); i++) {
 			double[] centroid = getCentroids(clusterList.get(i));
@@ -58,10 +58,10 @@ public class Converger {
 			SimpleEntry<Integer, double[]> newPair = new SimpleEntry<Integer, double[]>(
 					i, centroid);
 
-			cenroidList.add(newPair);
+            centroidList.add(newPair);
 		}
 
-		return cenroidList;
+		return centroidList;
 	}
 	 
 	private void mergeCluster(int i, int j) {

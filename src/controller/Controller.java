@@ -1,16 +1,16 @@
 package controller;
 
-import LDA.src.jgibblda.LDA;
-import birch.BIRCH;
+import cluster.LDA.src.jgibblda.LDA;
+import cluster.BIRCH;
 import cutter.Cutter;
-import dbscan.DBScan;
+import cluster.DBScan;
 import filter.Filter;
 
 import java.util.*;
 import java.util.AbstractMap.SimpleEntry;
 
 import keywords.KeyWord;
-import kmeans.KMProcessor;
+import cluster.KMProcessor;
 import statistics.Statistics;
 import tfidf.TFIDF;
 
@@ -100,7 +100,7 @@ public class Controller {
 
     public void writeLDAReadable(Hashtable<String, Hashtable<String, Integer>> fileWordTable) throws IOException {
 
-        PrintWriter writer = new PrintWriter(this.LDAInputPath, "UTF-8");
+    PrintWriter writer = new PrintWriter(this.LDAInputPath, "UTF-8");
 
 int num = fileWordTable.keySet().size();
         writer.println(num);
@@ -250,7 +250,9 @@ int num = fileWordTable.keySet().size();
 
     private void cpFilesByClusterResult(ArrayList<Map<String, double[]>> resultList, String dir) throws IOException {
     	
-    	assert(dir.equals(this.kMeansConvergeDir) || dir.equals(this.kMeansDir) || dir.equals(this.dbScanDir));
+    	assert( dir.equals(this.kMeansConvergeDir) || dir.equals(this.kMeansDir) ||
+                dir.equals(this.dbScanConvergeDir) || dir.equals(this.dbScanDir) ||
+                dir.equals(this.birchConvergeDir) || dir.equals(this.birchDir));
     	
     	File folder = new File(dir);
     	if(folder.isDirectory()) {
@@ -287,7 +289,7 @@ int num = fileWordTable.keySet().size();
 
         Hashtable<String, ArrayList<String>> topicFileTable = new Statistics(controller.LDAResultPath)
                 .getTopicFileTable(fileWordTable);
-//              LDA and statistics result to file
+//              cluster.LDA and statistics result to file
         controller.topicFileTable2file(topicFileTable);
 
         Hashtable<String, ArrayList<SimpleEntry<String, Double>>> topicKeyWordTable =
