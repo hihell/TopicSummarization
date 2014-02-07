@@ -1,0 +1,68 @@
+﻿
+				
+
+
+
+// 
+
+红会社会监督委员会将重新调查郭美美&#8194;&#8194;
+[相关]红会社监委下月拟 重新..&nbsp;|&nbsp;&nbsp;红会社监委：将重新调查..
+
+　　中国红十字会社会监督委员会拟于5月中下旬，重新启动针对2011年6月网络曝出的郭美美事件的调查，并邀请社会公众同步参与。“在芦山地震的抗灾救援中，我们注意到，尽管中国红会做了大量工作，但并未得到社会认可。很多公众仍然将&lsquo;郭美美事件&rsquo;作为红会贪污腐败、挪用款物的代名词。”中国红会社会监督委员会新闻发言人王永说。另外，中国红会前线指挥部指挥长王平认为，红十字会不能去官方化，这是法律赋予红会的特殊职能，跟其他的慈善组织没有可比性。《国际先驱导报》联合搜狐网展开调查。
+
+
+
+
+
+1.红十字会重新调查郭美美案能重塑信任吗？
+
+不能
+能
+不好说
+其他
+
+2.慈善应该官办还是民办？
+
+官办
+民办
+官多一点民少一点
+民多一点官少一点
+其他
+
+  查看结果&gt;&gt;
+
+
+// "+poll.name+"")
+	ctlResult = poll.ctl_result;
+for(var aa=0;aa"+serial+"."+title[aa].title+"")
+	s.append(""+title[aa].title+"")
+	var sumballot=0
+	for(var sum=0;sum")
+		if(ctlResult==0)
+		{
+		s.append(""+title[aa].item[i].ballot+"("+pro+"%)")
+		}//s.append("")
+		if(ctlResult==1)
+		{
+		s.append("("+pro+"%)")
+		}//s.append("")
+		if(ctlResult==2)
+		{
+		//s.append("")
+		}//s.append("")
+		s.append(title[aa].item[i].name)
+		s.append("")
+	}
+	s.append("")
+	
+}
+ida=poll.id;
+s.append("")
+s.append("查看详情&gt;&gt;")
+s.append("")
+$("#formsSurvey").html(s.toString());	
+}
+// ]]>
+			
+			
+			
