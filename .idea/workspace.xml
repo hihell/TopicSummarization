@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498bd0fd-f450-47e9-a1ce-6208a5ca4337" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cutter/Cutter.java" afterPath="$PROJECT_DIR$/src/cutter/Cutter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keywords/KeyWord.java" afterPath="$PROJECT_DIR$/src/keywords/KeyWord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/snippet/IKWordSpliter.java" afterPath="$PROJECT_DIR$/src/snippet/IKWordSpliter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" afterPath="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" afterPath="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tfidf/TFIDF.java" afterPath="$PROJECT_DIR$/src/tfidf/TFIDF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cutter/WordSplitter.java" afterPath="$PROJECT_DIR$/src/cutter/WordSplitter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TopicSummarization.iws" />
@@ -73,19 +73,37 @@
     <splitter split-orientation="horizontal" split-proportion="0.5165807">
       <split-first>
         <leaf>
-          <file leaf-file-name="TFIDF.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
+          <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="41" selection-start="3548" selection-end="3548" vertical-scroll-proportion="1.2257618" vertical-offset="705" max-vertical-offset="1995">
+                <state line="3" column="50" selection-start="30" selection-end="30" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="453">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IKWordSplitter.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cutter/IKWordSplitter.java">
+          <file leaf-file-name="birch.txt" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/birch.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7785">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TFIDF.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="49" column="50" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="876" max-vertical-offset="1980">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IKWordSpliter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/snippet/IKWordSpliter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="1" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="555">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -98,17 +116,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IKWordSpliter.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/snippet/IKWordSpliter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="51" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -134,7 +141,7 @@
           <file leaf-file-name="Snippet.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/snippet/Snippet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="885">
+                <state line="31" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
                   <folding />
                 </state>
               </provider>
@@ -143,7 +150,7 @@
           <file leaf-file-name="SnippetGenerator.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="48" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
+                <state line="82" column="44" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1530">
                   <folding />
                 </state>
               </provider>
@@ -152,16 +159,7 @@
           <file leaf-file-name="WordSpliter.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/snippet/WordSpliter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="45" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="840">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Converger.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="20" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2265">
+                <state line="14" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
                   <folding />
                 </state>
               </provider>
@@ -171,10 +169,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Converger.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Converger.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="49" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="1460" max-vertical-offset="2205">
+                <state line="31" column="55" selection-start="902" selection-end="902" vertical-scroll-proportion="0.49382716" vertical-offset="165" max-vertical-offset="2205">
                   <folding />
                 </state>
               </provider>
@@ -183,16 +181,16 @@
           <file leaf-file-name="KeyWord.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/keywords/KeyWord.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="268" column="5" selection-start="7633" selection-end="7633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6405">
+                <state line="268" column="5" selection-start="7633" selection-end="7633" vertical-scroll-proportion="0.0" vertical-offset="3720" max-vertical-offset="6405">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cutter.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Cutter.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cutter/Cutter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="26" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.34228188" vertical-offset="885" max-vertical-offset="2340">
+                <state line="15" column="53" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
                   <folding />
                 </state>
               </provider>
@@ -213,24 +211,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/cutter/WordSplitter.java" />
-        <option value="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" />
         <option value="$PROJECT_DIR$/src/cutter/IKWordSplitter.java" />
         <option value="$PROJECT_DIR$/src/test/TestSmallSeg.java" />
         <option value="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/converger/Converger.java" />
         <option value="$PROJECT_DIR$/src/cluster/BIRCH.java" />
-        <option value="$PROJECT_DIR$/src/tfidf/TFIDF.java" />
         <option value="$PROJECT_DIR$/src/snippet/iFuncList.java" />
         <option value="$PROJECT_DIR$/src/snippet/InfluenceFunc.java" />
         <option value="$PROJECT_DIR$/src/snippet/Sentence.java" />
         <option value="$PROJECT_DIR$/src/snippet/Snippet.java" />
-        <option value="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
         <option value="$PROJECT_DIR$/src/snippet/WordSpliter.java" />
-        <option value="$PROJECT_DIR$/src/snippet/IKWordSpliter.java" />
         <option value="$PROJECT_DIR$/src/keywords/KeyWord.java" />
         <option value="$PROJECT_DIR$/src/cutter/Cutter.java" />
+        <option value="$PROJECT_DIR$/src/tfidf/TFIDF.java" />
+        <option value="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
+        <option value="$PROJECT_DIR$/src/cutter/WordSplitter.java" />
+        <option value="$PROJECT_DIR$/src/cutter/SmallSegSplitter.java" />
+        <option value="$PROJECT_DIR$/src/snippet/IKWordSpliter.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -487,8 +486,10 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Controller">
+  <component name="RunManager" selected="Application.SnippetGenerator">
     <configuration default="false" name="SmallSegSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cutter.SmallSegSplitter" />
       <option name="VM_PARAMETERS" />
@@ -528,6 +529,22 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TopicSummarization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SnippetGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snippet.SnippetGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -664,16 +681,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.SmallSegSplitter" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestSmallSeg" />
       <item index="2" class="java.lang.String" itemvalue="Application.Controller" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SnippetGenerator" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestSmallSeg" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SmallSegSplitter" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.SnippetGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestSmallSeg" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SmallSegSplitter" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -688,6 +707,11 @@
       <created>1391759147625</created>
       <updated>1391759147625</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify git ignore">
+      <created>1391870597985</created>
+      <updated>1391870597985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,24 +719,24 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32951653" sideWeight="0.5003685" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32951653" sideWeight="0.49963155" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1989683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30160692" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20265292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30152673" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -727,6 +751,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="modify git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -880,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cutter/WordSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/smallseg4j_0.6.jar!/fx/sunjoy/SmallSeg.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.058915947" vertical-offset="0" max-vertical-offset="1273" />
@@ -911,13 +930,6 @@
         <state line="30" column="71" selection-start="779" selection-end="779" vertical-scroll-proportion="0.53699285" vertical-offset="0" max-vertical-offset="838" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cutter/SmallSegSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="28" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
@@ -939,39 +951,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cutter/IKWordSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/snippet/InfluenceFunc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="712">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/iFuncList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/WordSpliter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
@@ -983,6 +965,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/WordSpliter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/iFuncList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/snippet/Snippet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="885">
@@ -990,12 +986,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/IKWordSpliter.java">
+    <entry file="file://$PROJECT_DIR$/src/cutter/IKWordSplitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="16" column="38" selection-start="331" selection-end="331" vertical-scroll-proportion="0.25026068" vertical-offset="0" max-vertical-offset="959">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/Cutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,21 +1011,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="49" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+        <state line="31" column="55" selection-start="902" selection-end="902" vertical-scroll-proportion="0.49382716" vertical-offset="165" max-vertical-offset="2205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/WordSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="69" selection-end="69" vertical-scroll-proportion="0.105337076" vertical-offset="0" max-vertical-offset="712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/IKWordSpliter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cutter/SmallSegSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="44" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="41" selection-start="3548" selection-end="3548" vertical-scroll-proportion="1.2257618" vertical-offset="705" max-vertical-offset="1995">
+        <state line="49" column="50" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1980">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cutter/Cutter.java">
+    <entry file="file://$PROJECT_DIR$/birch.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="26" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.34228188" vertical-offset="885" max-vertical-offset="2340">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="50" selection-start="30" selection-end="30" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="453">
           <folding />
         </state>
       </provider>

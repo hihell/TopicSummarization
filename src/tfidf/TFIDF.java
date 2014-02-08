@@ -115,7 +115,6 @@ public class TFIDF {
         s.add(b);
         System.out.println(s.size());
 
-
         ArrayList<String> li = new ArrayList<String>(s);
 
         System.out.println(li.get(0));

@@ -80,14 +80,17 @@ public class SnippetGenerator {
 	}
 	
 	public static void main(String[] args) {
-		SnippetGenerator test = new SnippetGenerator(new IKWordSpliter("stopword.dic"));
+        SnippetGenerator test = new SnippetGenerator(new IKWordSpliter("stopcn.txt"));
 		try {
 //			test.Process("test.txt");
-            test.Process("/Users/jiusi/Desktop/gmm/1.txt");
+            test.Process("/Users/jiusi/Desktop/gmm/23.txt");
 
 			for (Snippet s : test.snippets) {
 				System.out.println(s.head_sentence);
 				System.out.println(s.sentence_list.toString());
+                if(s.size() == 0) {
+                    System.out.println("this snippet is empty");
+                }
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
