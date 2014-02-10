@@ -414,16 +414,16 @@ int num = fileWordTable.keySet().size();
         System.out.println("birch fin");
     }
 
-    public static void main(String args[]) {
 
+    private void discoverTopics() {
         try {
-            Controller controller = new Controller();
-            Cutter cutter = new Cutter(controller.articlePath);
+
+            Cutter cutter = new Cutter(this.articlePath);
             Filter filter = new Filter();
 
             cutter.cutIntoOneFile();
 
-            Hashtable<String, Hashtable<String, Integer>> fileWordTable = controller.readCutResult(cutter.outPath);
+            Hashtable<String, Hashtable<String, Integer>> fileWordTable = this.readCutResult(cutter.outPath);
 
             filter.filterStopWords(fileWordTable);
 
@@ -431,21 +431,35 @@ int num = fileWordTable.keySet().size();
 
             filter.filterFileWordTableByThreshold(fileWordTable);
 
-            controller.writeLDAReadable(fileWordTable);
+            this.writeLDAReadable(fileWordTable);
 
-            controller.stage1(controller, cutter, filter, fileWordTable);
+            this.stage1(this, cutter, filter, fileWordTable);
 
-            controller.stage2(controller, fileWordTable);
+            this.stage2(this, fileWordTable);
 
-            controller.stage3KMeans();
+            this.stage3KMeans();
 
-            controller.stage4DBScan();
+            this.stage4DBScan();
 
-            controller.stage5BIRCH();
+            this.stage5BIRCH();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+    }
+
+    private void generateSummarization() {
+
+    }
+
+
+    public static void main(String args[]) {
+        Controller controller = new Controller();
+        controller.discoverTopics();
+
+
+
 
     }
 
