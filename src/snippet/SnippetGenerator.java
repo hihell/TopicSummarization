@@ -7,12 +7,12 @@ import java.util.ArrayList;
 
 
 public class SnippetGenerator {
-	ArrayList<Sentence> sentences = null;
-	ArrayList<Snippet> snippets = null;
-	WordSpliter spliter = null;
+	public ArrayList<Sentence> sentences = null;
+	public ArrayList<Snippet> snippets = null;
+	public WordSpliter spliter = null;
 	
 	
-	SnippetGenerator(WordSpliter spliter) {
+	public SnippetGenerator(WordSpliter spliter) {
 		this.spliter = spliter;
 	}
 	
@@ -30,7 +30,7 @@ public class SnippetGenerator {
 			case '\n':
 				if (one_sentence.length() != 0) {
 					ArrayList<String> splited_words = spliter.Process(one_sentence);
-					sentences.add(new Sentence(splited_words, pos++));
+					sentences.add(new Sentence(splited_words, pos++, one_sentence));
 					one_sentence = new String();
 				}
 				break;
@@ -86,6 +86,7 @@ public class SnippetGenerator {
             test.Process("/Users/jiusi/Desktop/gmm/23.txt");
 
 			for (Snippet s : test.snippets) {
+
 				System.out.println(s.head_sentence);
 				System.out.println(s.sentence_list.toString());
                 if(s.size() == 0) {

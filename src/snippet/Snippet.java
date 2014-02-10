@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.lang.Math;
 
 public class Snippet {
-	Sentence head_sentence;
-	ArrayList<Sentence> sentence_list = null;
-	static InfluenceFunc ifunc = null;
-	double threshold = 1.0;
+	public Sentence head_sentence;
+	public ArrayList<Sentence> sentence_list = null;
+	public static InfluenceFunc ifunc = null;
+	public double threshold = 1.0;
 	
 	Snippet(Sentence head_sentence) {
 		this.head_sentence = head_sentence;
