@@ -57,7 +57,7 @@ public class Cutter {
 //                    List<String> cutResult = SmallSeg.cut(line);
                     List<String> cutResult = wordSplitter.splitSentence(line);
 
-//                  write words, separate with space
+//                  write wordList, separate with space
                     for(String w : cutResult) {
                         writer.print(w + " ");
                     }
