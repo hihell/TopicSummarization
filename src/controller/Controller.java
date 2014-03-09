@@ -36,7 +36,7 @@ public class Controller {
     public final String LDAInputPath = "./LDAFiles/trndoc.txt";
     public final String LDAResultPath = "./LDAFiles/model-final.twords";
 
-    public final String articlePath = "/Users/jiusi/Desktop/gmm";
+    public final String articlePath = "/Users/jiusi/Desktop/fzz-cyy";
 
     public final String topicFileTablePath = "./topicFileTable.txt";
 

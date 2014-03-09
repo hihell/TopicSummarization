@@ -139,17 +139,25 @@ public class Filter {
         }
     }
 
-    public static void main(String args[]) {
-        Filter f = new Filter();
 
-        Hashtable<String, Integer> words = new Hashtable<String, Integer>();
-        words.put("哎呀", 10);
-        words.put("知乎", 1);
 
-//        f.filterStopWords(words);
+    public void removeEmptyFiles(String dir) {
+        File files = new File(dir);
+        if(files.isDirectory()) {
 
-        System.out.println(words.size());
-        System.out.println("stop words read from file");
+            for(File file :files.listFiles()){
+                if(file.length() == 0) {
+                    file.delete();
+                }
+            }
+        }
+
     }
+
+    public static void main(String args[]) {
+
+    }
+
+
 
 }

@@ -95,6 +95,11 @@ public class TFIDF {
             ArrayList<SimpleEntry<String, Double>> eigenVector = new ArrayList<SimpleEntry<String, Double>>();
             for(int i = 0; i < keywordList.size(); i++){
                 Double tf_idf = TF(i, file, t) * IDF(i);
+
+                if (tf_idf.isNaN()) {
+                    tf_idf = 0.0;
+                }
+
                 SimpleEntry<String, Double> p = new SimpleEntry<String, Double>(keywordList.get(i), tf_idf);
                 eigenVector.add(p);
             }

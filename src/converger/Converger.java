@@ -102,10 +102,13 @@ public class Converger {
             }
         }
 
-        for(int i = 0; i < length; i++) {
-            centroid[i] /= clusterMap.size();
+        try{
+            for(int i = 0; i < length; i++) {
+                centroid[i] /= clusterMap.size();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
         return centroid;
     }
 	
