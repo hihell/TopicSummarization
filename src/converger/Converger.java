@@ -1,7 +1,6 @@
 package converger;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.AbstractMap.SimpleEntry;
@@ -114,7 +113,7 @@ public class Converger {
 	
 	public ArrayList<Map<String, double[]>> converge() {
 
-		System.out.println("cluster converge started");
+		System.out.println("topic.cluster converge started");
 		int loop = 0;
 
 		while (true) {

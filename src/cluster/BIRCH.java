@@ -1,15 +1,11 @@
 package cluster;
 import edu.gatech.gtisc.jbirch.cftree.CFTree;
-import edu.gatech.gtisc.jbirch.test.Test3;
-import edu.gatech.gtisc.jbirch.test.Test2;
-import edu.gatech.gtisc.jbirch.test.Test1;
 
 
 import java.io.*;
 import java.nio.charset.Charset;
 import java.util.AbstractMap.SimpleEntry;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;

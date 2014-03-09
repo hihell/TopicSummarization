@@ -1,18 +1,23 @@
 package snippet;
+import org.omg.DynamicAny._DynFixedStub;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class SnippetGenerator {
-	ArrayList<Sentence> sentences = null;
-	ArrayList<Snippet> snippets = null;
-	WordSpliter spliter = null;
+	public ArrayList<Sentence> sentences = null;
+	public ArrayList<Snippet> snippets = null;
+	public WordSpliter spliter = null;
+
+    public final String articlePath = "/Users/jiusi/Desktop/gmm/";
 	
-	
-	SnippetGenerator(WordSpliter spliter) {
+	public SnippetGenerator(WordSpliter spliter) {
 		this.spliter = spliter;
 	}
 	
@@ -30,7 +35,7 @@ public class SnippetGenerator {
 			case '\n':
 				if (one_sentence.length() != 0) {
 					ArrayList<String> splited_words = spliter.Process(one_sentence);
-					sentences.add(new Sentence(splited_words, pos++));
+					sentences.add(new Sentence(splited_words, pos++, one_sentence));
 					one_sentence = new String();
 				}
 				break;
@@ -78,16 +83,60 @@ public class SnippetGenerator {
 			snippets.add(snippet);
 		}
 	}
-	
+
+    public void Process(ArrayList<String> files_path) throws IOException{
+        ArrayList<Snippet> snippetList = new ArrayList<Snippet>();
+        for(String filePath : files_path) {
+            filePath = articlePath + filePath;
+            Process(filePath);
+            snippetList.addAll(this.snippets);
+        }
+        snippets = snippetList;
+
+//        System.out.println("SnippetGenerator.Process snippetList.size:" + snippetList.size());
+    }
+
+    public static ArrayList<Integer> findSmallSnippet(ArrayList<HashMap<String, Integer>> snippetList, int smallValue) {
+        ArrayList<Integer> smallIndexList = new ArrayList<Integer>();
+
+        for(int i = 0; i < snippetList.size(); i++) {
+            int accu = 0;
+            HashMap<String, Integer> snippet = snippetList.get(i);
+            for(Integer v : snippet.values()) {
+                accu += v;
+            }
+
+            if(accu < smallValue) {
+                smallIndexList.add(i);
+            }
+        }
+
+        return smallIndexList;
+    }
+
+
 	public static void main(String[] args) {
         SnippetGenerator test = new SnippetGenerator(new IKWordSpliter("stopcn.txt"));
 		try {
 //			test.Process("test.txt");
-            test.Process("/Users/jiusi/Desktop/gmm/23.txt");
+
+            ArrayList<String> fileList = new ArrayList<String>();
+            fileList.add("/Users/jiusi/Desktop/gmm/23.txt");
+            fileList.add("/Users/jiusi/Desktop/gmm/24.txt");
+            fileList.add("/Users/jiusi/Desktop/gmm/25.txt");
+
+
+            test.Process(fileList);
 
 			for (Snippet s : test.snippets) {
-				System.out.println(s.head_sentence);
-				System.out.println(s.sentence_list.toString());
+
+//				System.out.println(s.head_sentence);
+//				System.out.println(s.sentence_list.toString());
+
+                for(Sentence sen : s.sentence_list) {
+                    System.out.println(sen.original);
+                }
+
                 if(s.size() == 0) {
                     System.out.println("this snippet is empty");
                 }

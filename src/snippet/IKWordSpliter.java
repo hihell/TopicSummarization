@@ -8,12 +8,12 @@ import org.wltea.analyzer.core.Lexeme;
 
 public class IKWordSpliter extends WordSpliter {
 
-	IKWordSpliter(String stop_path) {
+	public IKWordSpliter(String stop_path) {
 		super(stop_path);
 	}
 
 	@Override
-	ArrayList<String> SplitWords(String sentence) {
+	public ArrayList<String> SplitWords(String sentence) {
 		ArrayList<String> word_list = new ArrayList<String>();
 		StringReader reader = new StringReader(sentence);
 		IKSegmenter segmenter = new IKSegmenter(reader, true);

@@ -18,7 +18,8 @@ public class iFuncList {
 		public double Calculate(double dist) {
 			double c = Math.exp(miu - sigma*sigma);
 			double x = c - dist * beta;
-			assert(x > 0);
+//            TODO uncomment this assertion
+//			assert(x > 0);
 			return 1/(x * sigma * 2.506628) * Math.exp(-Math.pow((Math.log(x) - miu), 2)/2/sigma/sigma);
 		}
 

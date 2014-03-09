@@ -208,7 +208,7 @@ public class KMProcessor {
 
     public ArrayList<Map<String, double[]>> converge() {
 
-        System.out.println("cluster converge started");
+        System.out.println("topic.cluster converge started");
         int loop = 0;
 
         while (true) {

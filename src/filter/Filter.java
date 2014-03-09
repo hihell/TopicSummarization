@@ -1,13 +1,16 @@
 package filter;
 
+import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBaseIterators;
 import fx.sunjoy.SmallSeg;
+import snippet.Snippet;
+import snippet.SnippetGenerator;
+import tfidf.TFIDF;
 
+import javax.annotation.processing.SupportedSourceVersion;
 import java.io.*;
+import java.lang.reflect.Array;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,8 +25,10 @@ public class Filter {
 
     public final String stopWordPath = "./stopcn.txt";
     public final Integer freqency_threshold_low = 1;
-    public final Integer freqency_threshold_high = 100;
+    public final Integer freqency_threshold_high = 500;
     public ArrayList<String> thresholdWords;
+
+    public static final int smallSnippetSize = 10;
 
     public Filter() {
         stopWords = new ArrayList<String>();
@@ -96,6 +101,17 @@ public class Filter {
         }
     }
 
+    public void fillThresholdWords(HashMap<String, Integer> wordTable) {
+        this.thresholdWords = new ArrayList<String>();
+        for(Map.Entry<String, Integer> word : wordTable.entrySet()) {
+            if(word.getValue() <= this.freqency_threshold_low ||
+                    word.getValue() >= this.freqency_threshold_high) {
+                thresholdWords.add(word.getKey());
+            }
+        }
+    }
+
+
     public void filterFileWordTableByThreshold(Hashtable<String, Hashtable<String, Integer>> fileWordTable) {
         Enumeration<String> fileNames = fileWordTable.keys();
         while(fileNames.hasMoreElements()) {
@@ -128,6 +144,7 @@ public class Filter {
     public void filterWTableByThreshold(Hashtable<String, Integer> wordTable) {
         assert (this.thresholdWords != null);
 
+
         if(thresholdWords.size() == 0) {
             System.err.println("没有高于或者低于阈值的词汇，可能有问题");
         }
@@ -139,25 +156,106 @@ public class Filter {
         }
     }
 
+    public void filterWordTableByThreshold(HashMap<String, Integer> wordTable) {
+        if(this.thresholdWords == null) {
+            fillThresholdWords(wordTable);
+        }
 
+        if(thresholdWords.size() == 0) {
+            System.err.println("没有高于或者低于阈值的词汇，可能有问题");
+        }
 
-    public void removeEmptyFiles(String dir) {
-        File files = new File(dir);
-        if(files.isDirectory()) {
-
-            for(File file :files.listFiles()){
-                if(file.length() == 0) {
-                    file.delete();
-                }
+        for(String del : thresholdWords) {
+            if(wordTable.containsKey(del)) {
+                wordTable.remove(del);
             }
         }
 
+        System.out.println("Filter.filterWordTableByThreshold wordTable.size:" + wordTable.size());
+    }
+
+    public static ArrayList<Snippet> filterSmallSnippet(ArrayList<Snippet> snippets) {
+        ArrayList<HashMap<String, Integer>> snippetList = Snippet.getHashMapSnippets(snippets);
+        ArrayList<String> snippetTextList = Snippet.getOriginalSnippets(snippets);
+
+        ArrayList<Integer> smallList = SnippetGenerator.findSmallSnippet(snippetList, smallSnippetSize);
+
+        ArrayList<HashMap<String, Integer>> filteredSnippetList = new ArrayList<HashMap<String, Integer>>();
+        ArrayList<String> filteredSentenceList = new ArrayList<String>();
+        ArrayList<Snippet> filteredSnippets = new ArrayList<Snippet>();
+
+
+        for(int i = 0; i < snippetList.size(); i++) if(!smallList.contains(i)) {
+            filteredSnippetList.add(snippetList.get(i));
+            filteredSentenceList.add(snippetTextList.get(i));
+            filteredSnippets.add(snippets.get(i));
+        }
+
+        return filteredSnippets;
+    }
+
+    public static ArrayList<Snippet> filterLowRankSnippet(ArrayList<Snippet> snippets, int afterSize) {
+
+        if(afterSize >= snippets.size()) {
+            return snippets;
+        }
+
+        ArrayList<Double> tfidfList = new ArrayList<Double>();
+        ArrayList<HashMap<String, Integer>> snippetList = Snippet.getHashMapSnippets(snippets);
+        for(HashMap<String, Integer> snippet : snippetList) {
+
+            double sum = 0.0;
+            for(Map.Entry<String, Integer> word : snippet.entrySet()) {
+                double tf = TFIDF.TF(word.getKey(), snippet);
+                double idf = TFIDF.IDF(word.getKey(), snippetList);
+
+                sum += (tf * idf);
+            }
+
+            tfidfList.add(sum);
+        }
+
+        ArrayList<Double> sortList = new ArrayList<Double>(tfidfList);
+        Collections.sort(sortList);
+        Collections.reverse(sortList);
+
+        double threshold = sortList.get(afterSize - 1);
+
+        ArrayList<Snippet> afterList = new ArrayList<Snippet>();
+        for(int i = 0; i < snippets.size(); i++) {
+            if(tfidfList.get(i) >= threshold) {
+                afterList.add(snippets.get(i));
+            }
+        }
+
+        assert (afterList.size() == afterSize);
+        return afterList;
     }
 
     public static void main(String args[]) {
+//        Filter f = new Filter();
+//
+//        Hashtable<String, Integer> words = new Hashtable<String, Integer>();
+//        words.put("哎呀", 10);
+//        words.put("知乎", 1);
+//
+////        f.filterStopWords(wordList);
+//
+//        System.out.println(words.size());
+//        System.out.println("stop wordList read from file");
+
+
+        ArrayList<Double> ll = new ArrayList<Double>();
+        ll.add(1.1);
+        ll.add(1.0);
+        ll.add(1.2);
+
+        System.out.println(ll);
+        Collections.sort(ll);
+        Collections.reverse(ll);
+
+        System.out.println(ll);
 
     }
-
-
 
 }

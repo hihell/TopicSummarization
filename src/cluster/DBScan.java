@@ -30,10 +30,10 @@ public class DBScan {
     public static final double eps = 0.6;
 //    public static final double eps = 0.7;
 
-//  minPoints: the minimum number of density-connected points required to form a cluster
+//  minPoints: the minimum number of density-connected points required to form a topic.cluster
     public static final int minPoints = 1;
 
-//  the root folder for collect files into cluster folders they belong
+//  the root folder for collect files into topic.cluster folders they belong
 
     public ArrayList<FileVectorPair> fileVectorPairList;
 

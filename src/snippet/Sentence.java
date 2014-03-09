@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 
 public class Sentence {
-	ArrayList<String> split_words;
-	int pos;
+    public String original;
+	public ArrayList<String> split_words;
+	public int pos;
 	
-	Sentence(ArrayList<String> split_words, int pos) {
+	Sentence(ArrayList<String> split_words, int pos, String original) {
 		this.split_words = split_words;
 		this.pos = pos;
+        this.original = original;
 	}
 	
 	/*s1与s2的距离指的是s1和s2之间的句子数量*/

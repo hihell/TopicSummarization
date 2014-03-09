@@ -67,7 +67,7 @@ public class KeyWord {
             }
         }
         System.out.println("sentences, empty/total:" + ecount + "/" + sList.size());
-        System.out.println("words:" + wList.size());
+        System.out.println("wordList:" + wList.size());
 
         MS = getMatrix(0.0, sList.size());
         SMW = DoubleFactory2D.sparse.make(wList.size(), wList.size());

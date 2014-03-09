@@ -135,7 +135,7 @@ int num = fileWordTable.keySet().size();
         return newSList;
     }
 
-    private void topK2file(Hashtable<String, ArrayList<SimpleEntry<String, Double>>> topicKeyWordTable ) throws IOException{
+    private void topK2file(Hashtable<String, ArrayList<SimpleEntry<String, Double>>> topicKeyWordTable) throws IOException{
         PrintWriter writer = new PrintWriter(this.topKResultPath, "UTF-8");
 
         Enumeration<String> topics = topicKeyWordTable.keys();
@@ -151,7 +151,7 @@ int num = fileWordTable.keySet().size();
         writer.close();
     }
 
-    private Hashtable<String, ArrayList<SimpleEntry<String, Double>>> file2topK() throws IOException{
+    private Hashtable<String, ArrayList<SimpleEntry<String, Double>>> file2topK() throws IOException {
         File topkFile = new File(this.topKResultPath);
 
         InputStream fis;
@@ -304,10 +304,10 @@ int num = fileWordTable.keySet().size();
             Hashtable<String, Integer> wordTable = new Hashtable<String, Integer>();
             cutter.cutTopicIntoLists(topicFileTable.get(topic), sList, wordTable);
 
-//                filter stop words
+//                filter stop wordList
             filter.filterSListStopWords(sList);
             filter.filterWordTableStopWords(wordTable);
-//                filter low and high words
+//                filter low and high wordList
             filter.filterSListByThreshold(sList);
             filter.filterWTableByThreshold(wordTable);
 
@@ -448,11 +448,6 @@ int num = fileWordTable.keySet().size();
         }
 
     }
-
-    private void generateSummarization() {
-
-    }
-
 
     public static void main(String args[]) {
         Controller controller = new Controller();

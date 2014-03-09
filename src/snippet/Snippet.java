@@ -1,13 +1,16 @@
 package snippet;
 
-import java.util.ArrayList;
 import java.lang.Math;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Snippet {
-	Sentence head_sentence;
-	ArrayList<Sentence> sentence_list = null;
-	static InfluenceFunc ifunc = null;
-	double threshold = 1.0;
+	public Sentence head_sentence;
+	public ArrayList<Sentence> sentence_list = null;
+	public static InfluenceFunc ifunc = null;
+	public double threshold = 1.0;
 	
 	Snippet(Sentence head_sentence) {
 		this.head_sentence = head_sentence;
@@ -50,5 +53,59 @@ public class Snippet {
 			return false;
 		}
 	}
-	
+
+    public static ArrayList<HashMap<String, Integer>> getHashMapSnippets(ArrayList<Snippet> snippets) {
+        ArrayList<HashMap<String, Integer>> snippetList = new ArrayList<HashMap<String, Integer>>();
+        for(Snippet snippet : snippets) {
+            HashMap<String, Integer> s = new HashMap<String, Integer>();
+            for(Sentence sentence : snippet.sentence_list) {
+                for(String word : sentence.split_words) {
+                    if(s.containsKey(word)) {
+                        int count = s.get(word);
+                        s.put(word, count+1);
+                    } else {
+                        s.put(word, 1);
+                    }
+                }
+            }
+            snippetList.add(s);
+        }
+
+        return snippetList;
+    }
+
+    public static ArrayList<String> getOriginalSnippets(ArrayList<Snippet> snippets) {
+        ArrayList<String> sentenceList = new ArrayList<String>();
+
+        for(Snippet snippet: snippets) {
+            String str = "";
+            for(Sentence sentence: snippet.sentence_list) {
+                str += sentence.original;
+            }
+            sentenceList.add(str);
+        }
+
+        return sentenceList;
+    }
+
+    public static HashMap<String, Integer> extractWordsFromSnippetList(ArrayList<HashMap<String, Integer>> snippetList) {
+
+        HashMap<String, Integer> wordTable = new HashMap<String, Integer>();
+        for(HashMap<String, Integer> snippet : snippetList) {
+            for(Map.Entry<String, Integer> pair : snippet.entrySet()) {
+                String word = pair.getKey();
+                Integer count = pair.getValue();
+
+                if(wordTable.containsKey(word)) {
+                    Integer oldValue = wordTable.get(word);
+                    wordTable.put(word, oldValue + count);
+                } else {
+                    wordTable.put(word, count);
+                }
+            }
+        }
+
+        return wordTable;
+    }
+
 }

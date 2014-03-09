@@ -1,9 +1,7 @@
 package tfidf;
 
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Hashtable;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.AbstractMap.SimpleEntry;
 
 /**
@@ -40,6 +38,10 @@ public class TFIDF {
         keywordList = new ArrayList<String>(keywordSet);
     }
 
+    public TFIDF() {
+
+    }
+
     public Double TF(int i, String fileName, int total) {
         String keyword = keywordList.get(i);
         int appearTime = 0;
@@ -49,6 +51,20 @@ public class TFIDF {
         }
 
         return (double) appearTime / total;
+    }
+
+    public static Double TF(String word, HashMap<String, Integer> snippet) {
+
+        int total = 0;
+        for(Map.Entry<String, Integer> pair : snippet.entrySet()) {
+            total += pair.getValue();
+        }
+
+        if(snippet.containsKey(word)) {
+            return (double) snippet.get(word) / total;
+        } else {
+            return 0.0;
+        }
     }
 
     public Double IDF(int i) {
@@ -69,6 +85,24 @@ public class TFIDF {
             return 0.0;
         } else {
             return Math.log((double) fileCount / appearTime);
+        }
+    }
+
+    public static Double IDF(String word, ArrayList<HashMap<String, Integer>> snippets) {
+
+        int appearTime = 0;
+        int snippetCount = snippets.size();
+
+        for(HashMap<String, Integer> snippet : snippets) {
+            if (snippet.containsKey(word)) {
+                appearTime ++;
+            }
+        }
+
+        if(appearTime == 0) {
+            return 0.0;
+        } else {
+            return Math.log((double) snippetCount / appearTime);
         }
     }
 
@@ -111,25 +145,26 @@ public class TFIDF {
 
 
     public static void main(String args[]) {
-        HashSet<String> s = new HashSet<String>();
+        HashMap<String, Integer> snippet = new HashMap<String, Integer>();
+        snippet.put("我们", 2);
+        snippet.put("今天", 1);
+        snippet.put("很开心", 1);
 
-        String a = "abc";
-        String b = "abcd";
+        HashMap<String, Integer> snippet1 = new HashMap<String, Integer>();
+        snippet1.put("他们", 2);
+        snippet1.put("昨天", 1);
+        snippet1.put("很开心", 1);
 
-        s.add(a);
-        s.add(b);
-        System.out.println(s.size());
+        ArrayList<HashMap<String, Integer>> sList = new ArrayList<HashMap<String, Integer>>();
+        sList.add(snippet);
+        sList.add(snippet1);
 
-        ArrayList<String> li = new ArrayList<String>(s);
+        TFIDF tfidf = new TFIDF();
+//        System.out.println(tfidf.TF("很开心", snippet));
+//        System.out.println(tfidf.TF("不爽", snippet));
 
-        System.out.println(li.get(0));
-
-        Integer x = 1;
-        Integer y = 2;
-
-        double ra = (double)x / y;
-        Double raa = ra;
-        System.out.println(raa);
+        System.out.println(tfidf.IDF("很开心", sList));
+        System.out.println(tfidf.IDF("他们", sList));
 
     }
 }
