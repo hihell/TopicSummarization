@@ -1,24 +1,17 @@
-﻿捐赠信息平台截屏【网址：http://fabu.redcross.org.cn/】7月31日，“中国红十字会总会捐赠信息发布平台”上线试运行，首先发布了青海玉树地震捐赠收支和资助使用的有关情况。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿　　崔永元赶录备播带？　　被爆央视批准其离职 观众担心“谢天谢地”命运
+　　　　昨日，有媒体爆料，崔永元第四次递交辞呈终于被领导批准，正式从央视辞职。而记者多方打听了解到，崔永元确有辞职之意，但是目前辞呈是否已经得到领导批复，小崔是否正在办理离职手续，各方说法不一。
+　　辞职？ 去意已决尚未走人
+　　昨日，报道称从知情人处获悉，上周三，崔永元的辞职信已经被领导批准，目前崔永元正在办理相关手续。昨日，记者向目前崔永元主持的《谢天谢地你来啦》节目的工作人员处了解情况，对方表示，并不知道崔永元离职一事，而“今天晚上，还有明天、后天、大后天他还要跟我们录好几期节目呢！”但是该名工作人员也说到，加上之前录制的备播节目，现在他们有足够播出两个月时间的节目量，至于之后的节目是怎样的一个情况，目前还都不能确定。
+　　记者昨日中午多次拨打崔永元助手电话，电话都无人接听，而傍晚再次拨打其电话，电话号码则变成了“空号”！虽然昨日有媒体称崔永元的助理明确表示“崔永元没有辞职”，但是记者从央视一位工作人员处了解到，目前，已经有央视的领导表态，“崔永元确实辞职了”。
+　　而记者从崔永元的一位朋友那里也了解到，前不久崔永元就曾经提到过，“过一阵就要辞职”的事情，但是四天前，两人见面再次提到此事，崔永元还表示，领导尚未批准，“不知道这几天是不是批下来了。”
+　　去向？ 十年迷恋“口述历史”
+　　对于崔永元离职之后，要去向何处，传闻也有两种版本，有媒体称他要拍电影，也有媒体表示他将把更大的精力投入到“口述历史”的研究中。昨天记者采访到中国传媒大学(微博 招生办)教授、崔永元口述历史研究中心主任丁俊杰，对于崔永元离职一事他并不知情，目前也没有跟崔永元交流过此事。而在今年8月6日，崔永元基金会成立的时候，也并没有听说他要辞职一事。
+　　丁俊杰还说道，崔永元个人对口述历史非常感兴趣，10年间进行了大量的资料收集，而这些资料长期堆放是一种浪费，所以中国传媒大学以及多所大学都和崔永元商讨过如何把这些资源系统化、可持续化，传媒大学并为他成立了博物馆和研究中心。而这10年所收集的资料都是他以及他的团队研究完成的，所以博物馆以及研究中心都以他的名字命名，但是考虑到崔永元还有主持工作，最初在机构的人员构架上，没有给他安排任何具体的工作，“当然我们希望他能有更多的精力投入口述历史，但他不调入研究中心，中心的工作也都是一样正常运转的。他现在就算是业余时间来做这边的工作已经够了。即使他调入研究中心，也不会担任任何行政工作，也会是个业务的核心人员。”丁俊杰还透露，在近期研究中心为传媒大学研究生开设的8场口述历史讲座，崔永元将担任其中一场的主讲。
+　　崔永元在接受某杂志采访的时候曾经表示：我到了这个年龄，精力不够了，我不想这么分着心干，也不能糊弄观众，我们有400多个优秀的电视主持人，有深度的也有200多个，但做口述历史的很少，比较冷门。
+　　节目？
+　　网友不舍“谢天谢地”
+　　在前不久，崔永元和方舟子的骂战中，崔永元就获得了一边倒的支持，而对于崔永元辞职一事，虽然观众的看法不一，但都对他个人非常肯定，网友文豆哥哥说，“为数不多敢于坚持新闻底线的人。支持离开，抑郁早愈。”
+　　目前，在央视各频道的节目中，崔永元仅有一档固定的周播节目，就是央视综合频道每周六晚播出的《谢天谢地你来啦》。崔永元对这档节目可以说有着特别的情感，在去年节目开播初期，他接受采访的时候曾透露，为了这个节目的脚本创作，他曾一度又回到经常失眠的状态。虽然由于节目在晚间节目播出，收视率并不理想，但是在开播的一年多里，节目已经积攒了一定数量的固定观众，昨天在崔永元离职一事爆出之后，有不少网友都表示很关心《谢天谢地你来啦》的未来命运。网友草果的冬天说道：“你的《谢天谢地你来啦》还办不办了？很好看！”
+　　虽然崔永元辞职一事，主角尚未给出最终结论，已经有网友开始总结他的经典语录：我一直觉得，所有的人，都在两条线内游荡，一条是底线，这底线叫法律；一条是高线，高线叫道德。所有的人都在法律和道德之间游荡，好的人离上线比较近，差的人接近底线，最差的人逾越底线。(记者 解辰巽 刘婷)
+　　（北京晨报 解辰巽 刘婷）
 
-		
-				
-				
-				
-				
-				
-				
-				红十字会捐赠信息发布平台仍存缺陷

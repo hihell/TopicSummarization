@@ -1,24 +1,2 @@
-﻿今年6月以来因“郭美美事件”备受质疑的中国红十字会在人事上出现重大调整。原党组书记、常务副会长王伟改任副会长（兼职），党组书记、常务副会长均为原国家人口计生委副主任赵白鸽。记者上午从中国红十字会证实上述信息。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿　　本报讯 16日有媒体称，央视主持人崔永元在先后四次提交辞职信后，终获央视批准，目前正在办理手续。　　2013年，央视出现较大规模的“人才外流潮”，李咏、王凯等纷纷离开央视的铁饭碗。而16日又有媒体称，崔永元第四次提出辞呈并获央视领导签字同意，据央视内部人员透露，崔永元离开的意愿确实比较强烈。未来，崔永元有可能会加盟央视即将成立的一家公司，在其下设置“崔永元工作室”。　　而据崔永元身边的人表示，离开央视后，崔永元再主持节目可能是玩票，他将最大限度地完成自己的电影梦，“应该会投入到电影圈，或制作、或当导演。”　　
 
-		
-				
-				
-				
-				
-				
-				
-				北京警方称郭美美与红会无直接关联

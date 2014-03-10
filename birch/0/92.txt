@@ -1,24 +1,41 @@
-﻿据新华社北京12月31日电 记者从中国红十字会总会了解到，关于“郭美美事件”及商业系统红十字会问题的联合调查显示，“郭美美”及其炫耀的财富与红十字会无关，但商红会的管理存在严重问题。中国红十字会已经有关方面同意，决定撤销商红会，并建立专家委员会、社会监督委员会、公共信息平台，开展对红十字品牌使用的规范制定和现状调研，力求提升社会公信力。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿
+				
+宕旀案鍏?/a>鏃ュ墠鍙楄璋堣緸鑱屽師鍥?/p>
+鏃ュ墠鍙楄璋堣緸鑱屽師鍥?/p>
 
+浠庣編鍥藉綊鏉ョ殑宕旀案鍏冩棩鍓嶄妇琛屽獟浣撹鏄庝細锛屽氨鍏紬鏅亶鍏冲績鐨?ldquo;绂昏亴澶&rdquo;銆?ldquo;璧寸編璋冩煡杞熀鍥犱骇鍝?rdquo;銆?ldquo;涓庢柟鑸熷瓙鐨勫井鍗氭枟浜?rdquo;绛夐棶棰樺洖绛斾簡鍦ㄥ満澶氬濯掍綋鐨勬彁闂€傚磾姘稿厓杩樹妇璧蜂粬鐨勪腑鍥芥姢鐓т緵濯掍綋鎷嶇収锛岀瑧绉扮粓浜庤兘璇存槑鑷繁娌℃湁鍔犲叆缇庡浗绫嶄簡銆?/p>
+
+鏍规嵁銆婃柊浜姤銆嬫姤閬擄紝宕旀案鍏冨ぇ鏂规壙璁わ紝涓庢柟鑸熷瓙鍦ㄥ井鍗氫笂鍏充簬杞熀鍥犵殑璁烘垬锛屾槸鍔犻€熷叾绂诲紑澶鐨勪富瑕佸師鍥犮€備粬姝ゆ鑷垂50涓囧厓鍓嶅線鏃ユ湰銆佺編鍥界瓑鍦拌皟鏌ヨ浆鍩哄洜浜у搧锛屽苟鍑嗗灏嗙浉鍏虫潗鏂欏埗鎴愮邯褰曠墖銆傚磾姘稿厓杩樼О锛屼粬宸蹭簬12鏈?鏃ユ寮忓叆鑱屼腑鍥戒紶濯掑ぇ瀛︼紝宸插畬鎴愭湰瀛﹀勾鐨勫彛杩板巻鍙茶绋嬨€傝€屽浜庢柊宸ヤ綔锛屽磾姘稿厓琛ㄧず鏁欎功鐨勫帇鍔涜繙姣斿仛涓绘寔浜哄ぇ銆?/p>
+
+绂诲紑澶锛?ldquo;宕旀案鍏冨彉娴佹皳锛屾垜鏈?lsquo;鍦熷尓&rsquo;涓€闈?rdquo; 
+璁拌€咃細褰撴椂涓轰粈涔堝湪寰崥鍜屾柟鑸熷瓙杩涜浜夎锛?/p>
+
+宕旀案鍏冿細鎴戝湪缃戜笂鐪嬪埌鏂伴椈锛屾柟鑸熷瓙鎼炰簡涓浆鍩哄洜椋熷搧璇曞悆锛岃鍒涢€犳潯浠惰鍥戒汉閮藉悆涓婅浆鍩哄洜銆傛垜涓€鍚繖璇濆氨鍙嶆劅锛屽洜涓烘垜鏄粠&ldquo;鏂囬潻&rdquo;璧拌繃鏉ョ殑锛屽氨鐑︿汉璇撮潪寰楀共浠€涔堛€傛垜涓€寮€濮嬭〃杩版尯娓╁拰锛屾垜璇村叕浼楀彲浠ュ悆锛屽彲浠ヤ笉鍚冦€備絾鏂硅垷瀛愮殑鍙嶅脊闈炲父鍘夊锛屾垜灏辨湁璀﹁浜嗐€傛垜涓婄綉鏌ヨ祫鏂欙紝鍙戠幇杩欎釜闂宸蹭簤璁哄緢闀挎椂闂翠簡锛屽叏鏄垜鐪嬩笉鎳傜殑璇嶃€傛垜鐭ラ亾杩欎簨鎸哄ぇ锛屽氨寮€濮嬬爺绌讹紝鎵句袱鏂归潰鐨勫鑰呰鏁欍€備綘璇寸編鍥戒汉鏀惧績鍚冧簡锛堣浆鍩哄洜椋熷搧锛夊皢杩?0骞存病浜嬶紝閭ｆ垜浠氨鍘荤編鍥芥帰璁匡紝鐪嬫槸涓嶆槸杩欐牱銆?/p>
+
+璁拌€咃細绂昏亴鍜屼笌鏂硅垷瀛愮殑浜夎鏈夊叧鍚楋紵
+宕旀案鍏冿細鎴戣繖娆¤璺熸柟鑸熷瓙寮勶紝缁濆鏄繚鑳屽彴閲岀殑瑙勫畾锛屼笉杈炶亴锛屼篃寰楄鎴戣蛋锛屾墍浠ュ共鑴嗚緸浜嗚窡浠栧共銆備綘鐢ㄤ粈涔堟墜娈垫垜灏辩敤浠€涔堟墜娈碉紝浣犺鎴戦€犲亣锛屾垜灏辨寲浣犻€犲亣锛涗綘楠備汉锛屾垜灏遍獋浜恒€傚磾姘稿厓鍙樻祦姘擄紝淇濇姢浜嗚繖浜涳紙鍜屾柟鑸熷瓙杈╄鐨勶級绉戝瀹躲€?/p>
+
+璁拌€咃細杩欐槸浣犵鑱岀殑涓昏鍘熷洜锛?/p>
+
+宕旀案鍏冿細浠栬鍦ㄥ井鍗氫笂鍐嶈闅惧惉璇濓紝鎴戜篃璇淬€傛垜鏅氳妭涓嶄繚锛屾垜涓嶈浠ュ墠鐨勫ソ褰㈣薄锛屾垜鎵嶄笉绔潃鍛紝閭ｄ笉鏄垜銆傛垜鏈?ldquo;鍦熷尓&rdquo;鐨勪竴闈€?/p>
+
+璁拌€咃細浣犲湪寰崥涓€忛湶锛岃鏂硅垷瀛愬幓澶鍛婄姸锛?/p>
+
+宕旀案鍏冿細锛堜粬杩欐牱鍋氾級娌＄敤锛屼腑澶數瑙嗗彴瀵规垜澶簡瑙ｄ簡锛屾垜浠?993骞村紑濮嬪湪杩欓噷鎵撳伐锛?996骞翠富鎸佽妭鐩紝鍒颁粖澶╃寮€锛屾垜涓€涓粐浜洪兘娌℃湁銆傛墍鏈変汉瀵规垜閮藉ソ锛屼粬鍛婃病鐢ㄣ€?/p>
+
+鏀瑰綋鑰佸笀锛?ldquo;闈㈠瀛︾敓锛屾瘮闈㈠闀滃ご鍘嬪姏鏇村ぇ&rdquo;
+璁拌€咃細浠绘暀涓浗浼犲獟澶у锛屾暀鍝柟闈㈢殑璇剧▼锛?/p>
+
+宕旀案鍏冿細鍥犱负杩樻病鏈変笓闂ㄧ殑鍙ｈ堪鍘嗗彶鏁欐潗锛岀幇鍦ㄤ笂璇句富瑕佹槸璁茶嚜宸卞崄鍑犲勾鐨勫績寰楋紝浠ュ強鍥藉鍙ｈ堪鍙叉鍐点€傚彟澶栵紝杩樹粙缁嶄竴浜涙柊鍏村彛杩板彶鐮旂┒鍗曚綅銆?/p>
+
+璁拌€咃細鍋氬彛杩板巻鍙茬殑鐮旂┒鍜屼綘鏇惧湪澶鐨勫伐浣滀骇鐢熷啿绐佷簡鍚楋紵
+宕旀案鍏冿細鎴?002骞村紑濮嬪仛鍙ｈ堪鍙诧紝鑰楄垂绮惧姏鐗瑰埆澶с€傚彴閲屾槸鍋氳妭鐩紝鍙ｈ堪鍙叉槸鏀堕泦璧勬枡锛屽皯鐨勯噰璁?-2涓皬鏃讹紝澶氱殑閲囪100涓皬鏃躲€傞噰璁垮悗鎶婅祫鏂欐暣鍚堬紝鐗瑰埆鑰楄垂鏃堕棿锛屽拰鍋氳妭鐩湁鍐茬獊銆傛棭鍦ㄤ笁骞村墠锛屾垜灏卞拰鍙伴噷鎻愬嚭鎯宠皟鍒颁紶濯掑ぇ瀛︼紝鍙伴噷涔熶笉澶悓鎰忥紝涓€鐩村湪鍟嗛噺锛岃繖娆＄粓浜庡悓鎰忎簡銆?/p>
+
+璁拌€咃細鏄惁鑰冭檻杩囨暀鎾煶涓绘寔璇剧▼锛?/p>
+
+宕旀案鍏冿細瀛︽牎甯屾湜鎴戞暀鎾煶涓绘寔锛屼絾鏄垜鎷掔粷浜嗭紝鎴戜笉鏄挱闊充富鎸佷笓涓氱殑锛屾垜瀛︾殑鏄柊闂婚噰璁裤€傛垜涓婁簡涓ゆ璇捐寰楁暀涔﹀拰鍋氭紨璁插畬鍏ㄦ槸涓ゅ洖浜嬶紝婕旇涓嶇敤閭ｄ箞涓ヨ皑锛屽彧瑕佸ぇ瀹舵効鎰忓惉灏卞彲浠ヤ簡锛涗絾鏄暀涔︼紝浣犳瘡涓€涓暟瀛椼€佷簨瀹為兘寰楁湁鍑哄銆?/p>
+
+璁拌€咃細涓婅鍘嬪姏姣斾富鎸佽妭鐩ぇ鍚楋紵
+宕旀案鍏冿細闈㈠瀛︾敓锛屾瘮闈㈠闀滃ご鍘嬪姏鏇村ぇ銆傝繃鍘讳富鎸佽妭鐩紝鎴戜滑璇撮敊浜嗭紝灏卞綋寮€涓帺绗戯紝瑙備紬涔熺瑧浜嗭紝杩欎簨灏辫繃鍘讳簡锛涘浜庡鐢熷彲涓嶈兘杩欎箞骞诧紝浠栦細鎻潃浣犱笉鏀俱€?锛堟湵鏌崇瑳 鐜嬬锛?
 		
-				
-				
-				
-				
-				
-				
-				中国红十字会公布郭美美事件调查报告撤销商红会
+			  

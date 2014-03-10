@@ -418,8 +418,10 @@ int num = fileWordTable.keySet().size();
     private void discoverTopics() {
         try {
 
-            Cutter cutter = new Cutter(this.articlePath);
             Filter filter = new Filter();
+            filter.purgeArticleFolder(this.articlePath);
+            Cutter cutter = new Cutter(this.articlePath);
+
 
             cutter.cutIntoOneFile();
 

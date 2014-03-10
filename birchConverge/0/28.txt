@@ -1,24 +1,3 @@
-﻿日月开新元，天地又一春。在这辞旧迎新的轮回之际，我代表中国红十字会总会，向关心、爱护和支持红十字事业的领导、各界人士、红十会工作者、会员和志愿者表示衷心的感谢和诚挚的问候。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿
+[摘要]从美国归来的崔永元日前举行媒体说明会，他举起中国护照供媒体拍照，笑称终于能说明自己没有加入美国籍，他也大方承认，与方舟子在微博上关于转基因的论战，是加速自身离开央视的原因。崔永元(微博)信息时报12月23日报道 从美国归来的崔永元日前举行媒体说明会，就公众普遍关心的“离职央视”、“赴美调查转基因产品”、“与方舟子的微博斗争”等问题作出回应。崔永元举起他的中国护照供媒体拍照，笑称终于能说明自己没有加入美国籍，他也大方承认，与方舟子在微博上关于转基因的论战，是加速自身离开央视的原因。此次拒绝了所有企业的赞助，自费50万前往日本、美国等地调查转基因产品的安全问题，并准备将拍摄的素材和获得的资料制成纪录片发布。崔永元表示，身为文科生的他，起初对转基因这玩意搞不清楚，但网上看到“方舟子搞了个转基因食品试吃，说创造条件让国人都吃上转基因。我一听这话就反感，就烦人说非得干什么”。发现转基因有争议后，崔永元开始了研究，“我也不能跟他（指方舟子）弄，因为央视有规定，不许发这样内容的微博，这是促使我离职的很大一个原因。我这次要跟方舟子弄，绝对是要违背中央台的规定的，不辞职，也得让我走，所以干脆辞了跟他干。真的加速了我的离开。崔永元表示，方舟子用什么手段他就用什么手段，“你说我造假，我就挖你造假；你骂人，我就骂人。崔永元变流氓，保护了这些（和方舟子辩论的）科学家。他要在微博上再说难听话，我也说。我晚节不保，我不要以前的好形象。那个公众形象没有用，我觉得公众的生命安全更重要。我才不端着呢，那不是我。如果你们都认为我形象很好，那你们看错了，我有‘土匪’的一面。
 
-		
-				
-				
-				
-				
-				
-				
-				红十字总会：年底前公布“郭美美事件”调查报告

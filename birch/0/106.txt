@@ -1,24 +1,21 @@
-﻿资料图：卢星宇【微博】郭美美之后，微博再现名人。1987年出生，美国加州州立大学传媒专业毕业，中非希望工程执行主席兼秘书长，全球华商未来领袖俱乐部秘书长，富二代……这些词累加在一起，就是新近的网络红人卢星宇。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿
+										
 
-		
-				
-				
-				
-				
-				
-				
-				网友探访“中非希望工程”办公室
+宕旀案鍏冿細
+杩欎釜鏂硅垷瀛愭湁鐐瑰埄娆茬啅蹇?/p>
+
+灏辨槸涓€涓噦涓€鐐圭瀛︾殑甯傛皯娣锋贩
+鎴戣闅惧惉涓€鐐癸紝灏辨槸涓€涓枃鐥炵敋鑷虫祦姘?/p>
+
+鏂硅垷瀛愶細
+浠栧畬鍏ㄦ槸鍦ㄩ€犺埃
+銆愬唴瀹规彁瑕併€戣憲鍚嶄富鎸佷汉宕旀案鍏冩渶杩戦鍙楀叧娉ㄣ€?2鏈?0鏃ユ櫄9鏃讹紝浠庣編鍥藉綊鏉ョ殑宕旀案鍏冨湪浜妇琛屽獟浣撹鏄庝細锛屽氨鍏紬鏅亶鍏冲績鐨?ldquo;绂昏亴澶&rdquo;銆?ldquo;璧寸編璋冩煡杞熀鍥犱骇鍝?rdquo;銆?ldquo;涓庢柟鑸熷瓙鐨勫井鍗氭枟浜?rdquo;銆?ldquo;鍥炴瘝鏍″綋鑰佸笀&rdquo;绛夐棶棰樺洖绛斾簡鍦ㄥ満澶氬濯掍綋鐨勬彁闂€?/p>
+
+12鏈?0鏃ユ櫄9鏃讹紝浠庢満鍦虹洿濂斿獟浣撹鏄庝細鐜板満鐨勫磾姘稿厓锛岄珮鍏村湴涓捐捣浜嗕粬鐨勪腑鍥芥姢鐓т緵濯掍綋鎷嶇収锛屼粬绗戠О锛岀粓浜庤兘璇存槑鑷繁娌℃湁鍔犲叆缇庡浗绫嶄簡銆?/p>
+
+闅忓悗锛屽磾姘稿厓澶ф柟鎵胯锛屼笌鏂硅垷瀛愬湪寰崥涓婂叧浜庤浆鍩哄洜鐨勮鎴橈紝鏄姞閫熻嚜韬寮€澶鐨勫師鍥犮€?/p>
+
+浠栨娆¤嚜璐?0涓囧厓鍓嶅線鏃ユ湰銆佺編鍥界瓑鍦拌皟鏌ヨ浆鍩哄洜浜у搧鐨勫畨鍏ㄩ棶棰橈紝骞跺噯澶囧皢鎷嶆憚鐨勭礌鏉愬拰鑾峰緱鐨勮祫鏂欏埗鎴愮邯褰曠墖鍙戝竷銆?/p>
+
+宕旀案鍏冭繕绉帮紝浠栧凡浜?2鏈?鏃ユ寮忓叆鑱屼腑鍥戒紶濯掑ぇ瀛︼紝宸插畬鎴愭湰瀛﹀勾鐨勫彛杩板巻鍙茶绋嬨€傝€屽浜庢柊宸ヤ綔锛屽磾姘稿厓琛ㄧず鏁欎功鍘嬪姏杩滄瘮鍋氫富鎸佷汉澶с€?/p>
+					

@@ -2,138 +2,759 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="498bd0fd-f450-47e9-a1ce-6208a5ca4337" name="Default" comment="second stage added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/Comb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/Distance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mwds/MWDS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/Normalizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/ResultReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/ResultWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/Similarity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mwds/SnippetGraph.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/101.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/49.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/51.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/62.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/92.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/1/95.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/101.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/49.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/51.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/62.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/92.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScanConverge/1/95.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/10.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/141.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/3/74.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/101.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/105.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/117.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/51.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/57.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/62.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/64.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/84.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeans/4/95.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/100.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/103.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/104.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/108.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/119.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/120.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/177.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/182.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/223.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/225.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/237.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/240.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/242.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/25.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/27.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/38.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/41.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/42.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/46.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/50.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/58.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/63.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/70.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/75.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/76.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/80.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/85.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/88.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/93.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/94.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-final.twords" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/IKAnalyzer2012_u6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birch/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/218.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/223.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/225.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/birchConverge/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/109.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbScan/0/66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/110.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/114.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/115.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/118.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/122.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/123.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/124.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/125.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/126.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/127.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/128.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/129.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/130.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/131.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/132.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/135.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/136.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/137.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/138.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/139.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/141.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/142.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/144.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/173.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/184.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/191.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/210.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/214.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/216.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/217.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/220.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/228.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/231.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/247.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/248.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kMeansConverge/0/99.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/0.txt" afterPath="$PROJECT_DIR$/birch/0/0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/0.txt" afterPath="$PROJECT_DIR$/birchConverge/0/0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/0.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/0.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/1.txt" afterPath="$PROJECT_DIR$/birch/0/1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/1.txt" afterPath="$PROJECT_DIR$/birchConverge/0/1.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/1.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/10.txt" afterPath="$PROJECT_DIR$/birch/0/10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/10.txt" afterPath="$PROJECT_DIR$/birchConverge/0/10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/10.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/100.txt" afterPath="$PROJECT_DIR$/birch/0/100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/100.txt" afterPath="$PROJECT_DIR$/birchConverge/0/100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/101.txt" afterPath="$PROJECT_DIR$/birch/0/101.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/101.txt" afterPath="$PROJECT_DIR$/birchConverge/0/101.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/102.txt" afterPath="$PROJECT_DIR$/birchConverge/0/102.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/103.txt" afterPath="$PROJECT_DIR$/birch/0/103.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/103.txt" afterPath="$PROJECT_DIR$/birchConverge/0/103.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/104.txt" afterPath="$PROJECT_DIR$/birch/0/104.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/104.txt" afterPath="$PROJECT_DIR$/birchConverge/0/104.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/105.txt" afterPath="$PROJECT_DIR$/birch/0/105.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/105.txt" afterPath="$PROJECT_DIR$/birchConverge/0/105.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/106.txt" afterPath="$PROJECT_DIR$/birch/0/106.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/106.txt" afterPath="$PROJECT_DIR$/birchConverge/0/106.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/107.txt" afterPath="$PROJECT_DIR$/birch/0/107.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/107.txt" afterPath="$PROJECT_DIR$/birchConverge/0/107.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/108.txt" afterPath="$PROJECT_DIR$/birch/0/108.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/108.txt" afterPath="$PROJECT_DIR$/birchConverge/0/108.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/109.txt" afterPath="$PROJECT_DIR$/birch/0/109.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/109.txt" afterPath="$PROJECT_DIR$/birchConverge/0/109.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScanConverge/0/109.txt" afterPath="$PROJECT_DIR$/dbScanConverge/0/109.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/11.txt" afterPath="$PROJECT_DIR$/birch/0/11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/11.txt" afterPath="$PROJECT_DIR$/birchConverge/0/11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/11.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/110.txt" afterPath="$PROJECT_DIR$/birch/0/110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/110.txt" afterPath="$PROJECT_DIR$/birchConverge/0/110.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/111.txt" afterPath="$PROJECT_DIR$/birchConverge/0/111.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/112.txt" afterPath="$PROJECT_DIR$/birch/0/112.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/112.txt" afterPath="$PROJECT_DIR$/birchConverge/0/112.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/113.txt" afterPath="$PROJECT_DIR$/birchConverge/0/113.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/114.txt" afterPath="$PROJECT_DIR$/birch/0/114.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/114.txt" afterPath="$PROJECT_DIR$/birchConverge/0/114.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/115.txt" afterPath="$PROJECT_DIR$/birch/0/115.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/115.txt" afterPath="$PROJECT_DIR$/birchConverge/0/115.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/116.txt" afterPath="$PROJECT_DIR$/birch/0/116.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/116.txt" afterPath="$PROJECT_DIR$/birchConverge/0/116.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/117.txt" afterPath="$PROJECT_DIR$/birch/0/117.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/117.txt" afterPath="$PROJECT_DIR$/birchConverge/0/117.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/118.txt" afterPath="$PROJECT_DIR$/birch/0/118.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/118.txt" afterPath="$PROJECT_DIR$/birchConverge/0/118.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/119.txt" afterPath="$PROJECT_DIR$/birch/0/119.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/119.txt" afterPath="$PROJECT_DIR$/birchConverge/0/119.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/12.txt" afterPath="$PROJECT_DIR$/birch/0/12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/12.txt" afterPath="$PROJECT_DIR$/birchConverge/0/12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/12.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/120.txt" afterPath="$PROJECT_DIR$/birch/0/120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/120.txt" afterPath="$PROJECT_DIR$/birchConverge/0/120.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/121.txt" afterPath="$PROJECT_DIR$/birch/0/121.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/121.txt" afterPath="$PROJECT_DIR$/birchConverge/0/121.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/122.txt" afterPath="$PROJECT_DIR$/birch/0/122.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/122.txt" afterPath="$PROJECT_DIR$/birchConverge/0/122.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/123.txt" afterPath="$PROJECT_DIR$/birch/0/123.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/123.txt" afterPath="$PROJECT_DIR$/birchConverge/0/123.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/124.txt" afterPath="$PROJECT_DIR$/birch/0/124.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/124.txt" afterPath="$PROJECT_DIR$/birchConverge/0/124.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/125.txt" afterPath="$PROJECT_DIR$/birch/0/125.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/125.txt" afterPath="$PROJECT_DIR$/birchConverge/0/125.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/126.txt" afterPath="$PROJECT_DIR$/birch/0/126.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/126.txt" afterPath="$PROJECT_DIR$/birchConverge/0/126.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/127.txt" afterPath="$PROJECT_DIR$/birch/0/127.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/127.txt" afterPath="$PROJECT_DIR$/birchConverge/0/127.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/128.txt" afterPath="$PROJECT_DIR$/birch/0/128.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/128.txt" afterPath="$PROJECT_DIR$/birchConverge/0/128.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/129.txt" afterPath="$PROJECT_DIR$/birch/0/129.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/129.txt" afterPath="$PROJECT_DIR$/birchConverge/0/129.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/13.txt" afterPath="$PROJECT_DIR$/birch/0/13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/13.txt" afterPath="$PROJECT_DIR$/birchConverge/0/13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/13.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/130.txt" afterPath="$PROJECT_DIR$/birch/0/130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/130.txt" afterPath="$PROJECT_DIR$/birchConverge/0/130.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/131.txt" afterPath="$PROJECT_DIR$/birch/0/131.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/131.txt" afterPath="$PROJECT_DIR$/birchConverge/0/131.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/132.txt" afterPath="$PROJECT_DIR$/birch/0/132.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/132.txt" afterPath="$PROJECT_DIR$/birchConverge/0/132.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/133.txt" afterPath="$PROJECT_DIR$/birch/0/133.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/133.txt" afterPath="$PROJECT_DIR$/birchConverge/0/133.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/135.txt" afterPath="$PROJECT_DIR$/birch/0/135.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/135.txt" afterPath="$PROJECT_DIR$/birchConverge/0/135.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/136.txt" afterPath="$PROJECT_DIR$/birch/0/136.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/136.txt" afterPath="$PROJECT_DIR$/birchConverge/0/136.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/137.txt" afterPath="$PROJECT_DIR$/birch/0/137.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/137.txt" afterPath="$PROJECT_DIR$/birchConverge/0/137.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/138.txt" afterPath="$PROJECT_DIR$/birch/0/138.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/138.txt" afterPath="$PROJECT_DIR$/birchConverge/0/138.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/139.txt" afterPath="$PROJECT_DIR$/birch/0/139.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/139.txt" afterPath="$PROJECT_DIR$/birchConverge/0/139.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/14.txt" afterPath="$PROJECT_DIR$/birch/0/14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/14.txt" afterPath="$PROJECT_DIR$/birchConverge/0/14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/14.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/140.txt" afterPath="$PROJECT_DIR$/birch/0/140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/140.txt" afterPath="$PROJECT_DIR$/birchConverge/0/140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/140.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/140.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/141.txt" afterPath="$PROJECT_DIR$/birch/0/141.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/141.txt" afterPath="$PROJECT_DIR$/birchConverge/0/141.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/143.txt" afterPath="$PROJECT_DIR$/birch/0/143.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/143.txt" afterPath="$PROJECT_DIR$/birchConverge/0/143.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/143.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/143.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/144.txt" afterPath="$PROJECT_DIR$/birch/0/144.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/144.txt" afterPath="$PROJECT_DIR$/birchConverge/0/144.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/145.txt" afterPath="$PROJECT_DIR$/birch/0/145.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/145.txt" afterPath="$PROJECT_DIR$/birchConverge/0/145.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/145.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/145.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/146.txt" afterPath="$PROJECT_DIR$/birch/0/146.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/146.txt" afterPath="$PROJECT_DIR$/birchConverge/0/146.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/146.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/146.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/147.txt" afterPath="$PROJECT_DIR$/birch/0/147.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/147.txt" afterPath="$PROJECT_DIR$/birchConverge/0/147.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/147.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/147.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/148.txt" afterPath="$PROJECT_DIR$/birch/0/148.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/148.txt" afterPath="$PROJECT_DIR$/birchConverge/0/148.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/148.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/148.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/149.txt" afterPath="$PROJECT_DIR$/birch/0/149.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/149.txt" afterPath="$PROJECT_DIR$/birchConverge/0/149.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/149.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/149.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/15.txt" afterPath="$PROJECT_DIR$/birch/0/15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/15.txt" afterPath="$PROJECT_DIR$/birchConverge/0/15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/15.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/150.txt" afterPath="$PROJECT_DIR$/birch/0/150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/150.txt" afterPath="$PROJECT_DIR$/birchConverge/0/150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/150.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/150.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/151.txt" afterPath="$PROJECT_DIR$/birch/0/151.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/151.txt" afterPath="$PROJECT_DIR$/birchConverge/0/151.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/151.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/151.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/152.txt" afterPath="$PROJECT_DIR$/birch/0/152.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/152.txt" afterPath="$PROJECT_DIR$/birchConverge/0/152.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/152.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/152.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/153.txt" afterPath="$PROJECT_DIR$/birch/0/153.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/153.txt" afterPath="$PROJECT_DIR$/birchConverge/0/153.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/153.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/153.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/154.txt" afterPath="$PROJECT_DIR$/birch/0/154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/154.txt" afterPath="$PROJECT_DIR$/birchConverge/0/154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/154.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/154.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/155.txt" afterPath="$PROJECT_DIR$/birch/0/155.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/155.txt" afterPath="$PROJECT_DIR$/birchConverge/0/155.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/155.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/155.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/156.txt" afterPath="$PROJECT_DIR$/birch/0/156.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/156.txt" afterPath="$PROJECT_DIR$/birchConverge/0/156.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/156.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/156.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/157.txt" afterPath="$PROJECT_DIR$/birch/0/157.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/157.txt" afterPath="$PROJECT_DIR$/birchConverge/0/157.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/158.txt" afterPath="$PROJECT_DIR$/birch/0/158.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/158.txt" afterPath="$PROJECT_DIR$/birchConverge/0/158.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/158.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/158.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/159.txt" afterPath="$PROJECT_DIR$/birch/0/159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/159.txt" afterPath="$PROJECT_DIR$/birchConverge/0/159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/159.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/159.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/16.txt" afterPath="$PROJECT_DIR$/birch/0/16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/16.txt" afterPath="$PROJECT_DIR$/birchConverge/0/16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/16.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/160.txt" afterPath="$PROJECT_DIR$/birch/0/160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/160.txt" afterPath="$PROJECT_DIR$/birchConverge/0/160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/160.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/160.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/161.txt" afterPath="$PROJECT_DIR$/birch/0/161.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/161.txt" afterPath="$PROJECT_DIR$/birchConverge/0/161.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/161.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/161.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/162.txt" afterPath="$PROJECT_DIR$/birch/0/162.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/162.txt" afterPath="$PROJECT_DIR$/birchConverge/0/162.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/162.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/162.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/163.txt" afterPath="$PROJECT_DIR$/birch/0/163.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/163.txt" afterPath="$PROJECT_DIR$/birchConverge/0/163.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/163.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/163.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/164.txt" afterPath="$PROJECT_DIR$/birch/0/164.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/164.txt" afterPath="$PROJECT_DIR$/birchConverge/0/164.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/164.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/164.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/165.txt" afterPath="$PROJECT_DIR$/birch/0/165.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/165.txt" afterPath="$PROJECT_DIR$/birchConverge/0/165.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/165.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/165.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/166.txt" afterPath="$PROJECT_DIR$/birch/0/166.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/166.txt" afterPath="$PROJECT_DIR$/birchConverge/0/166.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/166.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/166.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/167.txt" afterPath="$PROJECT_DIR$/birch/0/167.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/167.txt" afterPath="$PROJECT_DIR$/birchConverge/0/167.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/167.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/167.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/168.txt" afterPath="$PROJECT_DIR$/birch/0/168.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/168.txt" afterPath="$PROJECT_DIR$/birchConverge/0/168.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/168.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/168.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/169.txt" afterPath="$PROJECT_DIR$/birch/0/169.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/169.txt" afterPath="$PROJECT_DIR$/birchConverge/0/169.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/169.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/169.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/17.txt" afterPath="$PROJECT_DIR$/birch/0/17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/17.txt" afterPath="$PROJECT_DIR$/birchConverge/0/17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/17.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/170.txt" afterPath="$PROJECT_DIR$/birch/0/170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/170.txt" afterPath="$PROJECT_DIR$/birchConverge/0/170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/170.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/170.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/171.txt" afterPath="$PROJECT_DIR$/birch/0/171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/171.txt" afterPath="$PROJECT_DIR$/birchConverge/0/171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/171.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/171.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/172.txt" afterPath="$PROJECT_DIR$/birch/0/172.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/172.txt" afterPath="$PROJECT_DIR$/birchConverge/0/172.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/172.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/172.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/174.txt" afterPath="$PROJECT_DIR$/birch/0/174.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/174.txt" afterPath="$PROJECT_DIR$/birchConverge/0/174.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/174.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/174.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/175.txt" afterPath="$PROJECT_DIR$/birch/0/175.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/175.txt" afterPath="$PROJECT_DIR$/birchConverge/0/175.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/175.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/175.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/177.txt" afterPath="$PROJECT_DIR$/birch/0/177.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/177.txt" afterPath="$PROJECT_DIR$/birchConverge/0/177.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/178.txt" afterPath="$PROJECT_DIR$/birch/0/178.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/178.txt" afterPath="$PROJECT_DIR$/birchConverge/0/178.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/178.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/178.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/179.txt" afterPath="$PROJECT_DIR$/birch/0/179.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/179.txt" afterPath="$PROJECT_DIR$/birchConverge/0/179.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/179.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/179.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/18.txt" afterPath="$PROJECT_DIR$/birch/0/18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/18.txt" afterPath="$PROJECT_DIR$/birchConverge/0/18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/18.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/180.txt" afterPath="$PROJECT_DIR$/birch/0/180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/180.txt" afterPath="$PROJECT_DIR$/birchConverge/0/180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/180.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/180.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/181.txt" afterPath="$PROJECT_DIR$/birch/0/181.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/181.txt" afterPath="$PROJECT_DIR$/birchConverge/0/181.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/181.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/181.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/182.txt" afterPath="$PROJECT_DIR$/birch/0/182.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/182.txt" afterPath="$PROJECT_DIR$/birchConverge/0/182.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/183.txt" afterPath="$PROJECT_DIR$/birch/0/183.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/183.txt" afterPath="$PROJECT_DIR$/birchConverge/0/183.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/183.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/183.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/185.txt" afterPath="$PROJECT_DIR$/birch/0/185.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/185.txt" afterPath="$PROJECT_DIR$/birchConverge/0/185.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/185.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/185.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/186.txt" afterPath="$PROJECT_DIR$/birch/0/186.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/186.txt" afterPath="$PROJECT_DIR$/birchConverge/0/186.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/186.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/186.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/187.txt" afterPath="$PROJECT_DIR$/birch/0/187.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/187.txt" afterPath="$PROJECT_DIR$/birchConverge/0/187.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/187.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/187.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/188.txt" afterPath="$PROJECT_DIR$/birch/0/188.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/188.txt" afterPath="$PROJECT_DIR$/birchConverge/0/188.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/188.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/188.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/189.txt" afterPath="$PROJECT_DIR$/birch/0/189.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/189.txt" afterPath="$PROJECT_DIR$/birchConverge/0/189.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/189.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/189.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/19.txt" afterPath="$PROJECT_DIR$/birch/0/19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/19.txt" afterPath="$PROJECT_DIR$/birchConverge/0/19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/19.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/190.txt" afterPath="$PROJECT_DIR$/birch/0/190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/190.txt" afterPath="$PROJECT_DIR$/birchConverge/0/190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/190.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/190.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/192.txt" afterPath="$PROJECT_DIR$/birch/0/192.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/192.txt" afterPath="$PROJECT_DIR$/birchConverge/0/192.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/192.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/192.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/193.txt" afterPath="$PROJECT_DIR$/birch/0/193.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/193.txt" afterPath="$PROJECT_DIR$/birchConverge/0/193.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/193.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/193.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/194.txt" afterPath="$PROJECT_DIR$/birch/0/194.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/194.txt" afterPath="$PROJECT_DIR$/birchConverge/0/194.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/194.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/194.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/195.txt" afterPath="$PROJECT_DIR$/birch/0/195.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/195.txt" afterPath="$PROJECT_DIR$/birchConverge/0/195.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/195.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/195.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/196.txt" afterPath="$PROJECT_DIR$/birch/0/196.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/196.txt" afterPath="$PROJECT_DIR$/birchConverge/0/196.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/196.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/196.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/197.txt" afterPath="$PROJECT_DIR$/birch/0/197.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/197.txt" afterPath="$PROJECT_DIR$/birchConverge/0/197.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/197.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/197.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/198.txt" afterPath="$PROJECT_DIR$/birch/0/198.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/198.txt" afterPath="$PROJECT_DIR$/birchConverge/0/198.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/198.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/198.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/199.txt" afterPath="$PROJECT_DIR$/birch/0/199.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/199.txt" afterPath="$PROJECT_DIR$/birchConverge/0/199.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/199.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/199.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/2.txt" afterPath="$PROJECT_DIR$/birch/0/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/2.txt" afterPath="$PROJECT_DIR$/birchConverge/0/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/2.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/20.txt" afterPath="$PROJECT_DIR$/birch/0/20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/20.txt" afterPath="$PROJECT_DIR$/birchConverge/0/20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/20.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/200.txt" afterPath="$PROJECT_DIR$/birch/0/200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/200.txt" afterPath="$PROJECT_DIR$/birchConverge/0/200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/200.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/200.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/201.txt" afterPath="$PROJECT_DIR$/birch/0/201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/201.txt" afterPath="$PROJECT_DIR$/birchConverge/0/201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/201.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/201.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/202.txt" afterPath="$PROJECT_DIR$/birch/0/202.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/202.txt" afterPath="$PROJECT_DIR$/birchConverge/0/202.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/202.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/202.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/203.txt" afterPath="$PROJECT_DIR$/birch/0/203.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/203.txt" afterPath="$PROJECT_DIR$/birchConverge/0/203.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/203.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/203.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/204.txt" afterPath="$PROJECT_DIR$/birch/0/204.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/204.txt" afterPath="$PROJECT_DIR$/birchConverge/0/204.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/204.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/204.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/205.txt" afterPath="$PROJECT_DIR$/birch/0/205.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/205.txt" afterPath="$PROJECT_DIR$/birchConverge/0/205.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/205.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/205.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/206.txt" afterPath="$PROJECT_DIR$/birch/0/206.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/206.txt" afterPath="$PROJECT_DIR$/birchConverge/0/206.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/206.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/206.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/207.txt" afterPath="$PROJECT_DIR$/birch/0/207.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/207.txt" afterPath="$PROJECT_DIR$/birchConverge/0/207.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/207.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/207.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/208.txt" afterPath="$PROJECT_DIR$/birch/0/208.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/208.txt" afterPath="$PROJECT_DIR$/birchConverge/0/208.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/208.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/208.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/209.txt" afterPath="$PROJECT_DIR$/birch/0/209.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/209.txt" afterPath="$PROJECT_DIR$/birchConverge/0/209.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/209.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/209.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/21.txt" afterPath="$PROJECT_DIR$/birch/0/21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/21.txt" afterPath="$PROJECT_DIR$/birchConverge/0/21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/21.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/211.txt" afterPath="$PROJECT_DIR$/birch/0/211.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/211.txt" afterPath="$PROJECT_DIR$/birchConverge/0/211.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/211.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/211.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/212.txt" afterPath="$PROJECT_DIR$/birch/0/212.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/212.txt" afterPath="$PROJECT_DIR$/birchConverge/0/212.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/212.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/212.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/213.txt" afterPath="$PROJECT_DIR$/birch/0/213.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/213.txt" afterPath="$PROJECT_DIR$/birchConverge/0/213.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/215.txt" afterPath="$PROJECT_DIR$/birch/0/215.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/215.txt" afterPath="$PROJECT_DIR$/birchConverge/0/215.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/215.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/215.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/218.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/218.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/219.txt" afterPath="$PROJECT_DIR$/birch/0/219.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/219.txt" afterPath="$PROJECT_DIR$/birchConverge/0/219.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/219.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/219.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/22.txt" afterPath="$PROJECT_DIR$/birch/0/22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/22.txt" afterPath="$PROJECT_DIR$/birchConverge/0/22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/22.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/220.txt" afterPath="$PROJECT_DIR$/birch/0/220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/220.txt" afterPath="$PROJECT_DIR$/birchConverge/0/220.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/221.txt" afterPath="$PROJECT_DIR$/birch/0/221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/221.txt" afterPath="$PROJECT_DIR$/birchConverge/0/221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/221.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/221.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/222.txt" afterPath="$PROJECT_DIR$/birch/0/222.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/222.txt" afterPath="$PROJECT_DIR$/birchConverge/0/222.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/222.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/222.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/224.txt" afterPath="$PROJECT_DIR$/birch/0/224.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/224.txt" afterPath="$PROJECT_DIR$/birchConverge/0/224.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/224.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/224.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/226.txt" afterPath="$PROJECT_DIR$/birch/0/226.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/226.txt" afterPath="$PROJECT_DIR$/birchConverge/0/226.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/226.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/226.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/227.txt" afterPath="$PROJECT_DIR$/birch/0/227.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/227.txt" afterPath="$PROJECT_DIR$/birchConverge/0/227.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/227.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/227.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/228.txt" afterPath="$PROJECT_DIR$/birch/0/228.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/228.txt" afterPath="$PROJECT_DIR$/birchConverge/0/228.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/229.txt" afterPath="$PROJECT_DIR$/birch/0/229.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/229.txt" afterPath="$PROJECT_DIR$/birchConverge/0/229.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/229.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/229.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/23.txt" afterPath="$PROJECT_DIR$/birch/0/23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/23.txt" afterPath="$PROJECT_DIR$/birchConverge/0/23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/230.txt" afterPath="$PROJECT_DIR$/birch/0/230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/230.txt" afterPath="$PROJECT_DIR$/birchConverge/0/230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/230.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/230.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/232.txt" afterPath="$PROJECT_DIR$/birch/0/232.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/232.txt" afterPath="$PROJECT_DIR$/birchConverge/0/232.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/232.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/232.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/233.txt" afterPath="$PROJECT_DIR$/birch/0/233.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/233.txt" afterPath="$PROJECT_DIR$/birchConverge/0/233.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/233.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/233.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/234.txt" afterPath="$PROJECT_DIR$/birch/0/234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/234.txt" afterPath="$PROJECT_DIR$/birchConverge/0/234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/234.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/234.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/235.txt" afterPath="$PROJECT_DIR$/birch/0/235.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/235.txt" afterPath="$PROJECT_DIR$/birchConverge/0/235.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/235.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/235.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/236.txt" afterPath="$PROJECT_DIR$/birch/0/236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/236.txt" afterPath="$PROJECT_DIR$/birchConverge/0/236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/236.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/236.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/237.txt" afterPath="$PROJECT_DIR$/birch/0/237.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/237.txt" afterPath="$PROJECT_DIR$/birchConverge/0/237.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/238.txt" afterPath="$PROJECT_DIR$/birch/0/238.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/238.txt" afterPath="$PROJECT_DIR$/birchConverge/0/238.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/238.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/238.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/239.txt" afterPath="$PROJECT_DIR$/birch/0/239.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/239.txt" afterPath="$PROJECT_DIR$/birchConverge/0/239.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/239.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/239.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/24.txt" afterPath="$PROJECT_DIR$/birch/0/24.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/24.txt" afterPath="$PROJECT_DIR$/birchConverge/0/24.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/24.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/24.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/240.txt" afterPath="$PROJECT_DIR$/birch/0/240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/240.txt" afterPath="$PROJECT_DIR$/birchConverge/0/240.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/241.txt" afterPath="$PROJECT_DIR$/birch/0/241.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/241.txt" afterPath="$PROJECT_DIR$/birchConverge/0/241.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/241.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/241.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/242.txt" afterPath="$PROJECT_DIR$/birch/0/242.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/242.txt" afterPath="$PROJECT_DIR$/birchConverge/0/242.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/243.txt" afterPath="$PROJECT_DIR$/birch/0/243.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/243.txt" afterPath="$PROJECT_DIR$/birchConverge/0/243.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/243.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/243.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/244.txt" afterPath="$PROJECT_DIR$/birch/0/244.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/244.txt" afterPath="$PROJECT_DIR$/birchConverge/0/244.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/244.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/244.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/245.txt" afterPath="$PROJECT_DIR$/birch/0/245.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/245.txt" afterPath="$PROJECT_DIR$/birchConverge/0/245.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/245.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/245.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/246.txt" afterPath="$PROJECT_DIR$/birch/0/246.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/246.txt" afterPath="$PROJECT_DIR$/birchConverge/0/246.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/246.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/246.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/249.txt" afterPath="$PROJECT_DIR$/birch/0/249.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/249.txt" afterPath="$PROJECT_DIR$/birchConverge/0/249.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/249.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/249.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/25.txt" afterPath="$PROJECT_DIR$/birch/0/25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/25.txt" afterPath="$PROJECT_DIR$/birchConverge/0/25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/250.txt" afterPath="$PROJECT_DIR$/birch/0/250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/250.txt" afterPath="$PROJECT_DIR$/birchConverge/0/250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/250.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/250.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/251.txt" afterPath="$PROJECT_DIR$/birchConverge/0/251.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/251.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/251.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/26.txt" afterPath="$PROJECT_DIR$/birch/0/26.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/26.txt" afterPath="$PROJECT_DIR$/birchConverge/0/26.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/26.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/26.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/27.txt" afterPath="$PROJECT_DIR$/birch/0/27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/27.txt" afterPath="$PROJECT_DIR$/birchConverge/0/27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/28.txt" afterPath="$PROJECT_DIR$/birch/0/28.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/28.txt" afterPath="$PROJECT_DIR$/birchConverge/0/28.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/29.txt" afterPath="$PROJECT_DIR$/birch/0/29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/29.txt" afterPath="$PROJECT_DIR$/birchConverge/0/29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/29.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/3.txt" afterPath="$PROJECT_DIR$/birch/0/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/3.txt" afterPath="$PROJECT_DIR$/birchConverge/0/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/3.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/30.txt" afterPath="$PROJECT_DIR$/birch/0/30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/30.txt" afterPath="$PROJECT_DIR$/birchConverge/0/30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/30.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/31.txt" afterPath="$PROJECT_DIR$/birch/0/31.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/31.txt" afterPath="$PROJECT_DIR$/birchConverge/0/31.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/31.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/31.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/32.txt" afterPath="$PROJECT_DIR$/birch/0/32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/32.txt" afterPath="$PROJECT_DIR$/birchConverge/0/32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/32.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/33.txt" afterPath="$PROJECT_DIR$/birch/0/33.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/33.txt" afterPath="$PROJECT_DIR$/birchConverge/0/33.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/34.txt" afterPath="$PROJECT_DIR$/birch/0/34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/34.txt" afterPath="$PROJECT_DIR$/birchConverge/0/34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/34.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/35.txt" afterPath="$PROJECT_DIR$/birch/0/35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/35.txt" afterPath="$PROJECT_DIR$/birchConverge/0/35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/35.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/36.txt" afterPath="$PROJECT_DIR$/birch/0/36.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/36.txt" afterPath="$PROJECT_DIR$/birchConverge/0/36.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/36.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/36.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/37.txt" afterPath="$PROJECT_DIR$/birch/0/37.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/37.txt" afterPath="$PROJECT_DIR$/birchConverge/0/37.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/37.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/37.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/38.txt" afterPath="$PROJECT_DIR$/birch/0/38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/38.txt" afterPath="$PROJECT_DIR$/birchConverge/0/38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/39.txt" afterPath="$PROJECT_DIR$/birch/0/39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/39.txt" afterPath="$PROJECT_DIR$/birchConverge/0/39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScan/0/39.txt" afterPath="$PROJECT_DIR$/dbScan/0/39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScanConverge/0/39.txt" afterPath="$PROJECT_DIR$/dbScanConverge/0/39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/4.txt" afterPath="$PROJECT_DIR$/birch/0/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/4.txt" afterPath="$PROJECT_DIR$/birchConverge/0/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/4.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/40.txt" afterPath="$PROJECT_DIR$/birchConverge/0/40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/41.txt" afterPath="$PROJECT_DIR$/birch/0/41.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/41.txt" afterPath="$PROJECT_DIR$/birchConverge/0/41.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/42.txt" afterPath="$PROJECT_DIR$/birch/0/42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/42.txt" afterPath="$PROJECT_DIR$/birchConverge/0/42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/43.txt" afterPath="$PROJECT_DIR$/birch/0/43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/43.txt" afterPath="$PROJECT_DIR$/birchConverge/0/43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/43.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/44.txt" afterPath="$PROJECT_DIR$/birch/0/44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/44.txt" afterPath="$PROJECT_DIR$/birchConverge/0/44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/44.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/45.txt" afterPath="$PROJECT_DIR$/birch/0/45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/45.txt" afterPath="$PROJECT_DIR$/birchConverge/0/45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/45.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/46.txt" afterPath="$PROJECT_DIR$/birch/0/46.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/46.txt" afterPath="$PROJECT_DIR$/birchConverge/0/46.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/47.txt" afterPath="$PROJECT_DIR$/birch/0/47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/47.txt" afterPath="$PROJECT_DIR$/birchConverge/0/47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/47.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/49.txt" afterPath="$PROJECT_DIR$/birch/0/49.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/49.txt" afterPath="$PROJECT_DIR$/birchConverge/0/49.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/5.txt" afterPath="$PROJECT_DIR$/birch/0/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/5.txt" afterPath="$PROJECT_DIR$/birchConverge/0/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/5.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/50.txt" afterPath="$PROJECT_DIR$/birch/0/50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/50.txt" afterPath="$PROJECT_DIR$/birchConverge/0/50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/51.txt" afterPath="$PROJECT_DIR$/birch/0/51.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/51.txt" afterPath="$PROJECT_DIR$/birchConverge/0/51.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/52.txt" afterPath="$PROJECT_DIR$/birch/0/52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/52.txt" afterPath="$PROJECT_DIR$/birchConverge/0/52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/52.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/53.txt" afterPath="$PROJECT_DIR$/birch/0/53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/53.txt" afterPath="$PROJECT_DIR$/birchConverge/0/53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/53.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/54.txt" afterPath="$PROJECT_DIR$/birch/0/54.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/54.txt" afterPath="$PROJECT_DIR$/birchConverge/0/54.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/54.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/54.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/55.txt" afterPath="$PROJECT_DIR$/birch/0/55.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/55.txt" afterPath="$PROJECT_DIR$/birchConverge/0/55.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/55.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/55.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/56.txt" afterPath="$PROJECT_DIR$/birch/0/56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/56.txt" afterPath="$PROJECT_DIR$/birchConverge/0/56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/56.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/57.txt" afterPath="$PROJECT_DIR$/birch/0/57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/57.txt" afterPath="$PROJECT_DIR$/birchConverge/0/57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/58.txt" afterPath="$PROJECT_DIR$/birch/0/58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/58.txt" afterPath="$PROJECT_DIR$/birchConverge/0/58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/59.txt" afterPath="$PROJECT_DIR$/birch/0/59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/59.txt" afterPath="$PROJECT_DIR$/birchConverge/0/59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/59.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/6.txt" afterPath="$PROJECT_DIR$/birch/0/6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/6.txt" afterPath="$PROJECT_DIR$/birchConverge/0/6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/6.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/60.txt" afterPath="$PROJECT_DIR$/birch/0/60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/60.txt" afterPath="$PROJECT_DIR$/birchConverge/0/60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/61.txt" afterPath="$PROJECT_DIR$/birchConverge/0/61.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/62.txt" afterPath="$PROJECT_DIR$/birch/0/62.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/62.txt" afterPath="$PROJECT_DIR$/birchConverge/0/62.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/63.txt" afterPath="$PROJECT_DIR$/birch/0/63.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/63.txt" afterPath="$PROJECT_DIR$/birchConverge/0/63.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/64.txt" afterPath="$PROJECT_DIR$/birch/0/64.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/64.txt" afterPath="$PROJECT_DIR$/birchConverge/0/64.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/65.txt" afterPath="$PROJECT_DIR$/birch/0/65.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/65.txt" afterPath="$PROJECT_DIR$/birchConverge/0/65.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/66.txt" afterPath="$PROJECT_DIR$/birchConverge/0/66.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScanConverge/0/66.txt" afterPath="$PROJECT_DIR$/dbScanConverge/0/66.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/67.txt" afterPath="$PROJECT_DIR$/birch/0/67.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/67.txt" afterPath="$PROJECT_DIR$/birchConverge/0/67.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/68.txt" afterPath="$PROJECT_DIR$/birch/0/68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/68.txt" afterPath="$PROJECT_DIR$/birchConverge/0/68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/69.txt" afterPath="$PROJECT_DIR$/birchConverge/0/69.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/7.txt" afterPath="$PROJECT_DIR$/birch/0/7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/7.txt" afterPath="$PROJECT_DIR$/birchConverge/0/7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/7.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/70.txt" afterPath="$PROJECT_DIR$/birch/0/70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/70.txt" afterPath="$PROJECT_DIR$/birchConverge/0/70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/71.txt" afterPath="$PROJECT_DIR$/birch/0/71.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/71.txt" afterPath="$PROJECT_DIR$/birchConverge/0/71.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/72.txt" afterPath="$PROJECT_DIR$/birch/0/72.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/72.txt" afterPath="$PROJECT_DIR$/birchConverge/0/72.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/73.txt" afterPath="$PROJECT_DIR$/birch/0/73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/73.txt" afterPath="$PROJECT_DIR$/birchConverge/0/73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/74.txt" afterPath="$PROJECT_DIR$/birch/0/74.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/74.txt" afterPath="$PROJECT_DIR$/birchConverge/0/74.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/75.txt" afterPath="$PROJECT_DIR$/birch/0/75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/75.txt" afterPath="$PROJECT_DIR$/birchConverge/0/75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/76.txt" afterPath="$PROJECT_DIR$/birch/0/76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/76.txt" afterPath="$PROJECT_DIR$/birchConverge/0/76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/77.txt" afterPath="$PROJECT_DIR$/birch/0/77.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/77.txt" afterPath="$PROJECT_DIR$/birchConverge/0/77.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/78.txt" afterPath="$PROJECT_DIR$/birch/0/78.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/78.txt" afterPath="$PROJECT_DIR$/birchConverge/0/78.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/79.txt" afterPath="$PROJECT_DIR$/birch/0/79.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/79.txt" afterPath="$PROJECT_DIR$/birchConverge/0/79.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/8.txt" afterPath="$PROJECT_DIR$/birch/0/8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/8.txt" afterPath="$PROJECT_DIR$/birchConverge/0/8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/8.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/80.txt" afterPath="$PROJECT_DIR$/birch/0/80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/80.txt" afterPath="$PROJECT_DIR$/birchConverge/0/80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/81.txt" afterPath="$PROJECT_DIR$/birchConverge/0/81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/82.txt" afterPath="$PROJECT_DIR$/birchConverge/0/82.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/83.txt" afterPath="$PROJECT_DIR$/birch/0/83.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/83.txt" afterPath="$PROJECT_DIR$/birchConverge/0/83.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/84.txt" afterPath="$PROJECT_DIR$/birch/0/84.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/84.txt" afterPath="$PROJECT_DIR$/birchConverge/0/84.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/85.txt" afterPath="$PROJECT_DIR$/birch/0/85.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/85.txt" afterPath="$PROJECT_DIR$/birchConverge/0/85.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/86.txt" afterPath="$PROJECT_DIR$/birch/0/86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/86.txt" afterPath="$PROJECT_DIR$/birchConverge/0/86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/87.txt" afterPath="$PROJECT_DIR$/birchConverge/0/87.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/88.txt" afterPath="$PROJECT_DIR$/birch/0/88.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/88.txt" afterPath="$PROJECT_DIR$/birchConverge/0/88.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/89.txt" afterPath="$PROJECT_DIR$/birch/0/89.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/89.txt" afterPath="$PROJECT_DIR$/birchConverge/0/89.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/9.txt" afterPath="$PROJECT_DIR$/birch/0/9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/9.txt" afterPath="$PROJECT_DIR$/birchConverge/0/9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConverge/0/9.txt" afterPath="$PROJECT_DIR$/kMeansConverge/0/9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/90.txt" afterPath="$PROJECT_DIR$/birch/0/90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/90.txt" afterPath="$PROJECT_DIR$/birchConverge/0/90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/91.txt" afterPath="$PROJECT_DIR$/birch/0/91.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/91.txt" afterPath="$PROJECT_DIR$/birchConverge/0/91.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/92.txt" afterPath="$PROJECT_DIR$/birch/0/92.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/92.txt" afterPath="$PROJECT_DIR$/birchConverge/0/92.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/93.txt" afterPath="$PROJECT_DIR$/birch/0/93.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/93.txt" afterPath="$PROJECT_DIR$/birchConverge/0/93.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/94.txt" afterPath="$PROJECT_DIR$/birch/0/94.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/94.txt" afterPath="$PROJECT_DIR$/birchConverge/0/94.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/95.txt" afterPath="$PROJECT_DIR$/birch/0/95.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/95.txt" afterPath="$PROJECT_DIR$/birchConverge/0/95.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/96.txt" afterPath="$PROJECT_DIR$/birch/0/96.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/96.txt" afterPath="$PROJECT_DIR$/birchConverge/0/96.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/97.txt" afterPath="$PROJECT_DIR$/birch/0/97.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/97.txt" afterPath="$PROJECT_DIR$/birchConverge/0/97.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/98.txt" afterPath="$PROJECT_DIR$/birch/0/98.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/98.txt" afterPath="$PROJECT_DIR$/birchConverge/0/98.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch/0/99.txt" afterPath="$PROJECT_DIR$/birch/0/99.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConverge/0/99.txt" afterPath="$PROJECT_DIR$/birchConverge/0/99.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Controller.java" afterPath="$PROJECT_DIR$/src/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coverage/Coverage.java" afterPath="$PROJECT_DIR$/src/coverage/Coverage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cutter/Cutter.java" afterPath="$PROJECT_DIR$/src/cutter/Cutter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filter/Filter.java" afterPath="$PROJECT_DIR$/src/filter/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keywords/KeyWord.java" afterPath="$PROJECT_DIR$/src/keywords/KeyWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/snippet/Snippet.java" afterPath="$PROJECT_DIR$/src/snippet/Snippet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cluster/KMProcessor.java" afterPath="$PROJECT_DIR$/src/cluster/KMProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" afterPath="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/summarizer/Summarizer.java" afterPath="$PROJECT_DIR$/src/summarizer/Summarizer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birch.txt" afterPath="$PROJECT_DIR$/birch.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birchConvergeResult.txt" afterPath="$PROJECT_DIR$/birchConvergeResult.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cutResult.txt" afterPath="$PROJECT_DIR$/cutResult.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScan.txt" afterPath="$PROJECT_DIR$/dbScan.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbScanConvergeResult.txt" afterPath="$PROJECT_DIR$/dbScanConvergeResult.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eigenV.txt" afterPath="$PROJECT_DIR$/eigenV.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/snippet/iFuncList.java" afterPath="$PROJECT_DIR$/src/snippet/iFuncList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jiusi.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jiusi.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeans.txt" afterPath="$PROJECT_DIR$/kMeans.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kMeansConvergeResult.txt" afterPath="$PROJECT_DIR$/kMeansConvergeResult.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00100.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00100.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00100.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00100.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00100.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00100.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00200.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00200.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00200.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00200.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00200.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00200.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00300.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00300.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00300.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00300.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00300.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00300.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00400.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00400.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00400.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00400.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00400.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00400.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00500.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00500.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00500.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00500.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00500.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00500.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00600.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00600.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00600.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00600.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00600.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00600.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00700.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00700.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00700.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00700.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00700.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00700.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00800.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00800.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00800.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00800.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00800.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00800.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.others" afterPath="$PROJECT_DIR$/LDAFiles/model-00900.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-00900.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-00900.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-00900.theta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-00900.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-00900.twords" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.others" afterPath="$PROJECT_DIR$/LDAFiles/model-final.others" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.phi" afterPath="$PROJECT_DIR$/LDAFiles/model-final.phi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.tassign" afterPath="$PROJECT_DIR$/LDAFiles/model-final.tassign" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.theta" afterPath="$PROJECT_DIR$/LDAFiles/model-final.theta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/model-final.twords" afterPath="$PROJECT_DIR$/LDAFiles/model-final.twords" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topK.txt" afterPath="$PROJECT_DIR$/topK.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topicFileTable.txt" afterPath="$PROJECT_DIR$/topicFileTable.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/trndoc.txt" afterPath="$PROJECT_DIR$/LDAFiles/trndoc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LDAFiles/wordmap.txt" afterPath="$PROJECT_DIR$/LDAFiles/wordmap.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TopicSummarization.iws" />
@@ -190,7 +811,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java" line="130" class="snippet.SnippetGenerator" package="snippet">
+      <breakpoint url="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java" line="131" class="snippet.SnippetGenerator" package="snippet">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -250,7 +871,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/summarizer/Summarizer.java" line="222" class="summarizer.Summarizer" package="summarizer">
+      <breakpoint url="file://$PROJECT_DIR$/src/summarizer/Summarizer.java" line="235" class="summarizer.Summarizer" package="summarizer">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -265,6 +886,51 @@
         <option name="CONDITION" value="snippets.size() == 22&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/filter/Filter.java" line="255" class="filter.Filter" package="filter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="article.getName().equals(&quot;296.txt&quot;)&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/summarizer/Summarizer.java" line="136" class="summarizer.Summarizer" package="summarizer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/summarizer/Summarizer.java" line="110" class="summarizer.Summarizer" package="summarizer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -274,58 +940,62 @@
     <favorites_list name="TopicSummarization" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54388136">
+    <splitter split-orientation="horizontal" split-proportion="0.53113323">
       <split-first>
         <leaf>
+          <file leaf-file-name="TFIDF.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="133" column="20" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="1580" max-vertical-offset="2610">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ResultWriter.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/utils/ResultWriter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="23" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="780">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Summarizer.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/summarizer/Summarizer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="301" column="69" selection-start="9477" selection-end="9477" vertical-scroll-proportion="0.0" vertical-offset="4515" max-vertical-offset="5580">
-                  <folding />
+                <state line="383" column="76" selection-start="12045" selection-end="12045" vertical-scroll-proportion="0.0" vertical-offset="4923" max-vertical-offset="5670">
+                  <folding>
+                    <element signature="e#1342#1351#0" expanded="true" />
+                    <element signature="e#1922#1931#0" expanded="true" />
+                    <element signature="e#2395#2404#0" expanded="true" />
+                    <element signature="e#3086#3095#0" expanded="true" />
+                    <element signature="e#3562#3571#0" expanded="true" />
+                    <element signature="e#5598#5607#0" expanded="true" />
+                    <element signature="e#7268#7277#0" expanded="true" />
+                    <element signature="e#8611#8620#0" expanded="true" />
+                    <element signature="e#9297#9306#0" expanded="true" />
+                    <element signature="e#9351#9360#0" expanded="true" />
+                    <element signature="e#10803#10820#0" expanded="true" />
+                    <element signature="e#11148#11156#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="0_.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/0_.txt">
+            <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/0_.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="1_.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/1_.txt">
+          <file leaf-file-name="2_.txt" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/2_.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2_.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/2_.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="3_.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/3_.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="4_.txt" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/4_.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="38" selection-start="551" selection-end="551" vertical-scroll-proportion="0.36885247" vertical-offset="0" max-vertical-offset="585">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
                   <folding />
                 </state>
               </provider>
@@ -338,7 +1008,7 @@
           <file leaf-file-name="Controller.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="248" column="29" selection-start="8791" selection-end="8791" vertical-scroll-proportion="0.0" vertical-offset="3720" max-vertical-offset="7020">
+                <state line="416" column="51" selection-start="15195" selection-end="15195" vertical-scroll-proportion="0.0" vertical-offset="5719" max-vertical-offset="6720">
                   <folding />
                 </state>
               </provider>
@@ -347,16 +1017,16 @@
           <file leaf-file-name="Comb.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utils/Comb.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="34" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="930">
+                <state line="45" column="5" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="960">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="iFuncList.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="iFuncList.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/snippet/iFuncList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="53" selection-start="308" selection-end="308" vertical-scroll-proportion="0.33936653" vertical-offset="75" max-vertical-offset="1515">
+                <state line="15" column="8" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1515">
                   <folding />
                 </state>
               </provider>
@@ -365,7 +1035,7 @@
           <file leaf-file-name="Coverage.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/coverage/Coverage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="49" selection-start="1046" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2760">
+                <state line="104" column="18" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1204" max-vertical-offset="2595">
                   <folding />
                 </state>
               </provider>
@@ -374,16 +1044,27 @@
           <file leaf-file-name="Filter.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/filter/Filter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="201" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0" vertical-offset="3015" max-vertical-offset="4005">
+                <state line="169" column="0" selection-start="5545" selection-end="5545" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4290">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SnippetGraph.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="MWDS.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mwds/MWDS.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="162" column="62" selection-start="4940" selection-end="4940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2415">
+                  <folding>
+                    <element signature="e#4930#4939#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SnippetGraph.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mwds/SnippetGraph.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="44" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1425">
+                <state line="36" column="39" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.5205047" vertical-offset="60" max-vertical-offset="1275">
                   <folding />
                 </state>
               </provider>
@@ -392,16 +1073,7 @@
           <file leaf-file-name="SnippetGenerator.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="60" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2325">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Normalizer.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="45" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855">
+                <state line="90" column="39" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2340">
                   <folding />
                 </state>
               </provider>
@@ -419,7 +1091,7 @@
           <file leaf-file-name="Distance.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="16" selection-start="963" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1185">
+                <state line="59" column="5" selection-start="963" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1185">
                   <folding />
                 </state>
               </provider>
@@ -461,7 +1133,6 @@
         <option value="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/LDADataset.java" />
         <option value="$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Model.java" />
         <option value="$PROJECT_DIR$/src/snippet/iFuncList.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/snippet/Snippet.java" />
         <option value="$PROJECT_DIR$/src/utils/ResultWriter.java" />
         <option value="$PROJECT_DIR$/src/coverage/Coverage.java" />
@@ -471,17 +1142,43 @@
         <option value="$PROJECT_DIR$/src/utils/Similarity.java" />
         <option value="$PROJECT_DIR$/src/mwds/MWDS.java" />
         <option value="$PROJECT_DIR$/src/test/TestAppend.java" />
-        <option value="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
-        <option value="$PROJECT_DIR$/src/filter/Filter.java" />
         <option value="$PROJECT_DIR$/src/utils/Comb.java" />
+        <option value="$PROJECT_DIR$/src/snippet/SnippetGenerator.java" />
+        <option value="$PROJECT_DIR$/summarization/dominate_simplification/2_.txt" />
+        <option value="$PROJECT_DIR$/src/filter/Filter.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/birch.txt" />
         <option value="$PROJECT_DIR$/src/summarizer/Summarizer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1394" />
-    <option name="height" value="878" />
+    <option name="x" value="-241" />
+    <option name="y" value="-1058" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -509,6 +1206,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -540,8 +1238,22 @@
               <option name="myItemId" value="summarization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dominate_simplification" />
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TopicSummarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="summarization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dominate_coverage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,22 +1270,8 @@
               <option name="myItemId" value="summarization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="summarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cover_simplification" />
+              <option name="myItemId" value="coverage_dominate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,28 +1304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tfidf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,61 +1339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="statistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mwds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keywords" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -811,27 +1433,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TopicSummarization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cluster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -866,6 +1469,10 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -983,6 +1590,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1008,19 +1628,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1130,9 +1737,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Comb" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestAppend" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Comb" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestAppend" />
         <item index="3" class="java.lang.String" itemvalue="Application.SnippetGenerator" />
       </list>
     </recent_temporary>
@@ -1184,7 +1791,7 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -1205,8 +1812,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1394" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="-241" y="-1058" width="1920" height="1058" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37163562" sideWeight="0.49972782" order="0" side_tool="false" content_ui="tabs" />
@@ -1215,19 +1822,19 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22463769" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26501036" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37254903" sideWeight="0.50027215" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.49963155" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32712215" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14497042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31987578" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772276" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14483494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2774327" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1244,8 +1851,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32815734" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14536741" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32091096" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1278,62 +1885,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/birch.txt">
+    <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.9673657" vertical-offset="6393" max-vertical-offset="7680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="60" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.5910578" vertical-offset="28" max-vertical-offset="2205">
+        <state line="44" column="33" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kMeans/2/3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/HashMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="39" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="3000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="0" selection-end="457" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="148" selection-end="148" vertical-scroll-proportion="0.08928572" vertical-offset="0" max-vertical-offset="672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1590">
+        <state line="19" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/Snippet.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1695">
+        <state line="59" column="5" selection-start="963" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/keywords/KeyWord.java">
+    <entry file="file://$PROJECT_DIR$/src/filter/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="49" selection-start="8205" selection-end="8205" vertical-scroll-proportion="0.0" vertical-offset="5697" max-vertical-offset="6405">
+        <state line="201" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0" vertical-offset="3015" max-vertical-offset="4005">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ResultReader.java">
+    <entry file="file://$PROJECT_DIR$/src/mwds/SnippetGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="80" column="44" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="60" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="45" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
@@ -1345,258 +1948,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
+    <entry file="file://$PROJECT_DIR$/src/summarizer/Summarizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="45" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Similarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ResultWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="64" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate/3_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate/2_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="498" selection-end="498" vertical-scroll-proportion="0.2020958" vertical-offset="0" max-vertical-offset="668" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_coverage/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_coverage/2_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_coverage/3_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_coverage/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate/1_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_coverage/1_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="58" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/1_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/2_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/3_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mwds/MWDS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="49" selection-start="4819" selection-end="4852" vertical-scroll-proportion="0.8459563" vertical-offset="1531" max-vertical-offset="2415">
+        <state line="301" column="69" selection-start="9477" selection-end="9477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5580">
           <folding>
-            <element signature="e#4930#4939#0" expanded="true" />
+            <element signature="e#1342#1351#0" expanded="true" />
+            <element signature="e#1922#1931#0" expanded="true" />
+            <element signature="e#2395#2404#0" expanded="true" />
+            <element signature="e#3086#3095#0" expanded="true" />
+            <element signature="e#3562#3571#0" expanded="true" />
+            <element signature="e#5598#5607#0" expanded="true" />
+            <element signature="e#7268#7277#0" expanded="true" />
+            <element signature="e#8611#8620#0" expanded="true" />
+            <element signature="e#9297#9306#0" expanded="true" />
+            <element signature="e#9351#9360#0" expanded="true" />
+            <element signature="e#10803#10820#0" expanded="true" />
+            <element signature="e#11148#11156#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="62" selection-end="62" vertical-scroll-proportion="0.031914894" vertical-offset="0" max-vertical-offset="940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestAppend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="98" selection-start="508" selection-end="508" vertical-scroll-proportion="0.6155015" vertical-offset="0" max-vertical-offset="658">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#233#242#0" expanded="false" />
-            <element signature="e#345#354#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="60" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="2205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/coverage/Coverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="49" selection-start="1046" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="2595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mwds/SnippetGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="44" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="46" selection-start="1629" selection-end="1630" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="2535">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filter/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0" vertical-offset="2648" max-vertical-offset="3855">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="29" selection-start="8791" selection-end="8791" vertical-scroll-proportion="0.0" vertical-offset="3742" max-vertical-offset="6690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/cover_simplification/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/cover_simplification/1_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/cover_simplification/2_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/cover_simplification/3_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/cover_simplification/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/summarizer/Summarizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="69" selection-start="9477" selection-end="9477" vertical-scroll-proportion="0.0" vertical-offset="3883" max-vertical-offset="5340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/0_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/1_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/2_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/3_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/summarization/dominate_simplification/4_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="551" selection-end="551" vertical-scroll-proportion="0.36885247" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="19" selection-start="2879" selection-end="2879" vertical-scroll-proportion="-0.108843535" vertical-offset="1068" max-vertical-offset="2070">
+        <state line="248" column="29" selection-start="8795" selection-end="8795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7020">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/Comb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="34" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="930">
+        <state line="45" column="34" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/snippet/iFuncList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="308" selection-end="308" vertical-scroll-proportion="0.33936653" vertical-offset="75" max-vertical-offset="1515">
+        <state line="15" column="53" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coverage/Coverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="49" selection-start="1046" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="0" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.0" vertical-offset="3015" max-vertical-offset="4005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mwds/SnippetGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="44" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="60" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="45" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="16" selection-start="963" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converger/Converger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="60" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.5910578" vertical-offset="28" max-vertical-offset="2205" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="39" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="3000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/Snippet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="49" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keywords/KeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="49" selection-start="8205" selection-end="8205" vertical-scroll-proportion="0.0" vertical-offset="5697" max-vertical-offset="6405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ResultReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="57" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Similarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster/LDA/src/jgibblda/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="19" selection-start="2879" selection-end="2879" vertical-scroll-proportion="-0.108843535" vertical-offset="1068" max-vertical-offset="2070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Comb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="5" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/iFuncList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snippet/SnippetGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="39" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1318" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Normalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statistics/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Distance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="5" selection-start="963" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ResultWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/birchConvergeResult.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1195" column="47" selection-start="169865" selection-end="169865" vertical-scroll-proportion="0.84671533" vertical-offset="17345" max-vertical-offset="18030" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbScanConvergeResult.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-24.664234" vertical-offset="16895" max-vertical-offset="17580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="416" column="51" selection-start="15195" selection-end="15195" vertical-scroll-proportion="0.0" vertical-offset="5719" max-vertical-offset="6720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="0" selection-start="5545" selection-end="5545" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kMeansConvergeResult.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-29.116724" vertical-offset="16713" max-vertical-offset="17310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kMeans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-29.209059" vertical-offset="16766" max-vertical-offset="17340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/birch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1133" column="65" selection-start="161437" selection-end="161437" vertical-scroll-proportion="24.982487" vertical-offset="2730" max-vertical-offset="17325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eigenV.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbScan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-27.34171" vertical-offset="16323" max-vertical-offset="16920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tfidf/TFIDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="20" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="1580" max-vertical-offset="2610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coverage/Coverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="18" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1204" max-vertical-offset="2595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mwds/MWDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="62" selection-start="4940" selection-end="4940" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2415">
+          <folding>
+            <element signature="e#4930#4939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mwds/SnippetGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="39" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.5205047" vertical-offset="60" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/summarizer/Summarizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="383" column="76" selection-start="12045" selection-end="12045" vertical-scroll-proportion="0.0" vertical-offset="4923" max-vertical-offset="5670">
+          <folding>
+            <element signature="e#1342#1351#0" expanded="true" />
+            <element signature="e#1922#1931#0" expanded="true" />
+            <element signature="e#2395#2404#0" expanded="true" />
+            <element signature="e#3086#3095#0" expanded="true" />
+            <element signature="e#3562#3571#0" expanded="true" />
+            <element signature="e#5598#5607#0" expanded="true" />
+            <element signature="e#7268#7277#0" expanded="true" />
+            <element signature="e#8611#8620#0" expanded="true" />
+            <element signature="e#9297#9306#0" expanded="true" />
+            <element signature="e#9351#9360#0" expanded="true" />
+            <element signature="e#10803#10820#0" expanded="true" />
+            <element signature="e#11148#11156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/0_.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summarization/coverage_dominate/2_.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
           <folding />
         </state>
       </provider>
@@ -1641,7 +2292,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1658,7 +2309,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

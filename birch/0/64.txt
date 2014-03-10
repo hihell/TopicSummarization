@@ -1,24 +1,2 @@
-﻿新华网北京7月30日电 （记者 胡浩）针对网上关于中国红十字会某副会长被纪委带走协助调查的传闻，红十字会总会相关负责人30日表示，中国红十字会总会“没有任何人被带走”。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
-
-		
-				
-				
-				
-				
-				
-				
-				中国红十字会捐赠信息平台今日上线
+﻿
+	   	   				銆€銆€宕旀案鍏冦€傦紙璧勬枡鍥撅級2鏈?1鏃ヤ笅鍗堬紝宕旀案鍏?/a>鍦ㄥ井鍗氫笂鐩存寚鍙搁┈鍗楄璇濅笉杩囪剳瀛愶紝浠栨涓嶅姘斿湴璇达細鈥滄垜鐨勬湅鍙嬪徃椹崡鏈€杩戝鎴戣涓夐亾鍥涳紝鎴戞病鍦ㄦ剰銆傚洜涓哄墠涓€娈垫椂闂翠粬鐨勮剳澹宠閲嶉噸鍦版尋浜嗭紝鏃犳硶纭畾浠栫幇鍦ㄨ璇濊繕杩囦笉杩囪剳瀛愩€傗€濈綉鍙嬬悍绾疯〃绀衡€滃叧娉ㄥ皬宕旀灉鐒舵病閿欙紒鈥?/p>鍦ㄥ井鍗氫笂鐩存寚鍙搁┈鍗楄璇濅笉杩囪剳瀛愶紝浠栨涓嶅姘斿湴璇达細鈥滄垜鐨勬湅鍙嬪徃椹崡鏈€杩戝鎴戣涓夐亾鍥涳紝鎴戞病鍦ㄦ剰銆傚洜涓哄墠涓€娈垫椂闂翠粬鐨勮剳澹宠閲嶉噸鍦版尋浜嗭紝鏃犳硶纭畾浠栫幇鍦ㄨ璇濊繕杩囦笉杩囪剳瀛愩€傗€濈綉鍙嬬悍绾疯〃绀衡€滃叧娉ㄥ皬宕旀灉鐒舵病閿欙紒鈥?/p>鍙搁┈鍗楁浘鎸囧磾姘稿厓鏄梾浜猴細鈥滄垜璁よ瘑宕旀案鍏冧笁鍗佸骞?璁よ瘑鏂硅垷瀛愬崄澶氬勾銆傚磾姘稿厓鏄釜濂戒汉,涔熸槸涓梾浜?鎴戜滑搴旇浣撹皡涓€涓梾浜?浣嗚繖涓ソ浜哄姞鐥呬汉鍦ㄨ浆鍩哄洜闂涓婅捣鍒颁簡姣斿潖浜烘洿鍧忕殑浣滅敤銆傗€濇嵁鏂版氮	  

@@ -1,7 +1,9 @@
 package filter;
 
+import com.google.common.base.StandardSystemProperty;
 import com.sun.org.apache.xml.internal.dtm.ref.DTMDefaultBaseIterators;
 import fx.sunjoy.SmallSeg;
+import org.apache.commons.io.IOUtils;
 import snippet.Snippet;
 import snippet.SnippetGenerator;
 import tfidf.TFIDF;
@@ -10,6 +12,9 @@ import javax.annotation.processing.SupportedSourceVersion;
 import java.io.*;
 import java.lang.reflect.Array;
 import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 /**
@@ -129,7 +134,7 @@ public class Filter {
         assert (this.thresholdWords != null);
 
         if(thresholdWords.size() == 0) {
-            System.err.println("没有高于或者低于阈值的词汇，可能有问题");
+            System.err.println("Filter.filterSListByThreshold, 没有高于或者低于阈值的词汇，可能有问题");
         }
 
         for(Hashtable sentence: sList) {
@@ -146,7 +151,7 @@ public class Filter {
 
 
         if(thresholdWords.size() == 0) {
-            System.err.println("没有高于或者低于阈值的词汇，可能有问题");
+            System.err.println("Filter.filterWTableByThreshold, 没有高于或者低于阈值的词汇，可能有问题");
         }
 
         for(String del : thresholdWords) {
@@ -162,7 +167,7 @@ public class Filter {
         }
 
         if(thresholdWords.size() == 0) {
-            System.err.println("没有高于或者低于阈值的词汇，可能有问题");
+            System.err.println("Filter.filterWordTableByThreshold 没有高于或者低于阈值的词汇，可能有问题");
         }
 
         for(String del : thresholdWords) {
@@ -226,11 +231,46 @@ public class Filter {
             if(tfidfList.get(i) >= threshold) {
                 afterList.add(snippets.get(i));
             }
+            if(afterList.size() == afterSize) {
+                break;
+            }
         }
 
         assert (afterList.size() == afterSize);
+
+
         return afterList;
     }
+
+    public static void purgeArticleFolder(String articleDir) {
+
+        File ad = new File(articleDir);
+
+        if(ad.isDirectory()) {
+
+            File[] articles = ad.listFiles();
+            for(File article : articles) {
+
+                try{
+                    FileInputStream fisTargetFile = new FileInputStream(article);
+                    String content = IOUtils.toString(fisTargetFile, "UTF-8");
+                    content = content.replace("\n", "").replace("\r", "").replace("\t", "");
+                    content = content.replaceAll("\\s+","");
+
+                    if(content.length() <= 1){
+                        article.delete();
+                        System.out.println("Filter.purgeArticleFolder file deleted:" + article.getAbsolutePath());
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+
+        }
+    }
+
+
 
     public static void main(String args[]) {
 //        Filter f = new Filter();
@@ -243,18 +283,12 @@ public class Filter {
 //
 //        System.out.println(words.size());
 //        System.out.println("stop wordList read from file");
+        System.out.println("here");
+        Filter.purgeArticleFolder("/Users/jiusi/Desktop/fzz-cyy");
 
 
-        ArrayList<Double> ll = new ArrayList<Double>();
-        ll.add(1.1);
-        ll.add(1.0);
-        ll.add(1.2);
-
-        System.out.println(ll);
-        Collections.sort(ll);
-        Collections.reverse(ll);
-
-        System.out.println(ll);
+//        String x = "";
+//        System.out.println("size:" + x.length());
 
     }
 

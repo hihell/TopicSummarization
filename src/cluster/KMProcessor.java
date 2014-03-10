@@ -9,7 +9,7 @@ package cluster;
  */
 
 import edu.uci.ics.jung.algorithms.util.KMeansClusterer;
-import sun.jvm.hotspot.ci.ciArrayKlass;
+
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -90,13 +90,8 @@ public class KMProcessor {
     }
 
     public ArrayList<Map<String, double[]>> processKMeans() {
-        try{
-            this.clusters = kmc.cluster(this.aritcleEigenVectorMap, this.clusterCount);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
-
+        this.clusters = kmc.cluster(this.aritcleEigenVectorMap, this.clusterCount);
 
         this.clusterList = new ArrayList<Map<String, double[]>>();
 

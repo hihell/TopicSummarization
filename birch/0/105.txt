@@ -1,16 +1,25 @@
-﻿中非希望工程爆出24岁“卢美美”中国青基会：未向公众劝募，捐款源于定向捐赠晨报96101热线新闻（记者 何欣）近日，一个名叫卢星宇的24岁女孩，因“中非希望工程执行主席”、管理20亿元项目资金而成为关注的焦点，并被网友称为“卢美美”。昨天，中国青少年发展基金会和卢星宇本人都发表声明予以回应。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
-网友探访“中非希望工程”办公室
+﻿
+										
+鏂硅垷瀛愬磾姘稿厓锛堣祫鏂欏浘锛?/span>
+
+鏂硅垷瀛愬井鍗氬洖鍑?/span>
+
+鏂硅垷瀛愬洖鍑诲井鍗?/span>
+鏂硅垷瀛愬拰宕旀案鍏冪殑楠傛垬浠?013骞?鏈堝欢缁嚦浠婏紝灏氭湭骞虫伅銆傜户浜夎杞熀鍥犻棶棰樹簰楠傜櫧鐥寸櫧鍚冦€佸磾姘稿厓鏆楁寚鏂硅垷瀛愬悜澶€佷簰鐩告敾鍑诲浜哄悗锛屼袱浜洪獋鎴樺張鏈夋柊杩涘睍銆傛柟鑸熷瓙浠婂ぉ涓嬪崍鍙戝竷鍗氭枃琛ㄧず锛屽磾姘稿厓瀵硅嚜宸遍€犺埃銆佽璋わ紝灏嗚拷绌跺叾娉曞緥璐ｄ换锛屽姝わ紝宕旀案鍏冨洖搴旂О&ldquo;澶ソ浜?rdquo;锛?ldquo;娉曢櫌瑙?rdquo;銆?/p>
+
+宕旀案鍏冧粖澶╁噷鏅?鏃惰杞簡涓€绡囬涓?ldquo;鏂硅垷瀛愬湪缇庡浗绌剁珶鎷ユ湁鍑犲鎴夸骇锛?rdquo;鐨勫笘瀛愶紝骞跺姞浠ヨ瘎璁虹О锛?ldquo;鎴戜笉璁や负杩欎簺閽遍兘鏄倶瀛愬棏鏅獥鏉ョ殑锛岃偗瀹氳繕鏈夊叾瀹冪殑楠楁硶銆?rdquo;瀵规锛屾柟鑸熷瓙鍦ㄥ井鍗氫笂鍙戝竷澹版槑锛岀О宕旀案鍏冮€犺埃璇借挨锛岃€屾鍓嶅磾姘稿厓璇翠粬鏄?ldquo;鏃犺禆&rdquo;銆?ldquo;閭暀鏁欎富&rdquo;绛夛紝瀵规浠栧皢涓€骞惰捣璇夈€?/p>
+
+瀵规宕旀案鍏冨紓甯稿叴濂嬪洖搴旂О锛?ldquo;鑲樺瓙缁堜簬鍐冲畾鍛婁笂娉曢櫌浜嗭紝澶ソ浜嗭紒灏辩瓑杩欎竴澶╁憿锛佸挶浠硶闄㈣锛?rdquo;闅忓悗浠栬繕鎻愰啋鏂硅垷瀛愬&ldquo;鍒?rdquo;鍑犳潯缃姸锛?ldquo;鐪佸緱鎴戞弧鎵嬬殑璇佹嵁鐢ㄤ笉鍑哄幓銆?rdquo;
+浠婂勾9鏈堝垵锛屾柟鑸熷瓙鍦ㄥ井鍗氫腑绉?ldquo;瑕佸垱閫犳潯浠惰鍥戒汉閮藉悆杞熀鍥?rdquo;锛屾璇濊宕旀案鍏冨弽鎰燂紝骞跺紩鍙戞寔缁嚦浠婄殑&ldquo;宕旀柟澶ф垬&rdquo;銆傚叾闂达紝宕旀案鍏?娆¤嚜璐硅荡鏃ョ編璋冩煡杞熀鍥犻棶棰橈紝骞跺姞閫熶粬鏈€缁堢鑱屽ぎ瑙嗐€備笉杩囷紝浠庝袱浜轰簰楠備簰鐩告敾鍑诲浜烘潵鐪嬶紝鍏充簬杞熀鍥犵殑浜夎瓒婃潵瓒婃垚闂瑰墽銆?/p>
+
+鏂硅垷瀛愬崥瀹㈠０鏄庯細
+鍏充簬鍏ㄥ浗鏀垮崗濮斿憳宕旀案鍏冮€犺埃銆佹瘉璋ょ殑澹版槑
+鍏ㄥ浗鏀垮崗濮斿憳銆佸墠澶涓绘寔浜恒€佺幇涓浗浼犲獟澶у鏁欏笀宕旀案鍏冨湪2014骞?鏈?鏃ュ噷鏅?:50鍦ㄥ井鍗氳浆鍙戜竴鏉″尶鍚嶅井鍗氾紝绉帮細
+&ldquo;銆愭柟鑸熷瓙鍦ㄧ編鍥界┒绔熸嫢鏈夊嚑澶勬埧浜э紵銆戜粖鏃ワ紝缃戝弸&lsquo;鍏寚&rsquo;鍦ㄨ櫣妗ョ綉绔欏彂甯栵紝鏇濆厜鏂硅垷瀛愪綅浜庣編鍥藉姞宸炲湥椹鏂競鐨勮豹瀹呫€傛嵁鏌ワ紝2013骞?0鏈?0鏃ワ紝涓€浣嶅悕涓?lsquo;Liu Juhua&rsquo;鐨勪汉(鐤戜技鏂硅垷瀛愬銆佹柊鍗庣ぞ璁拌€呭垬鑿婅姳)浠?7涓囩編鍏冪殑浠锋牸璐叆璞畢涓€鏍嬶紝鍚屾棩锛屾柟鏄皯(鏂硅垷瀛?灏嗗悕涓嬬殑涓€濂楁埧浜т篃杞缁欒繖浣嶅垬鑿婅姳銆?rdquo;
+宕旀案鍏冨苟璇勮璇达細&ldquo;鎴戜笉璁や负杩欎簺閽遍兘鏄倶瀛愬棏鏅獥鏉ョ殑锛岃偗瀹氳繕鏈夊叾瀹冪殑楠楁硶銆?rdquo;鍗冲磾姘稿厓璁や负鎴戦€氳繃&ldquo;鍡戞櫘&rdquo;鍜屽叾浠栨柟娉曢獥閽卞湪缇庡浗涔版埧浜с€傝繖鏄鎴戠殑閫犺埃鍜屾瘉璋ゃ€傚磾姘稿厓鐨勮繖鏉″井鍗氬凡琚浆鍙?000澶氭锛屽奖鍝嶆伓鍔ｏ紝鎴戝繀杩界┒鍏舵硶寰嬭矗浠汇€?/p>
+
+鍑犱釜鏈堜互鏉ワ紝宕旀案鍏冮€犱簡銆佷紶浜嗘垜寰堝璋ｈ█锛屾瘉璋ゆ垜鏄?ldquo;涓€涓伓蹇冮獥瀛?rdquo;銆?ldquo;缃戠粶娴佹皳鏆村姏闆嗗洟澶寸洰&rdquo;銆?ldquo;甯岀壒鍕?rdquo;銆?ldquo;閭暀鏁欎富&rdquo;銆?ldquo;澶╀笅绗竴楠楀ぉ涓嬬涓€鎶勫ぉ涓嬬涓€闂?rdquo;銆?ldquo;绗竴鏃犺禆绗竴涓嬩綔&rdquo;銆?ldquo;鍧戣挋鎷愰獥閮藉共杩?rdquo;銆?ldquo;浠ョ鏅拰鎵撳亣涓洪潰鍏风殑缃戠粶鐣搁獥&rdquo;銆?ldquo;鐨勭‘灏辨槸绾獥瀛?rdquo;銆?ldquo;鎴戜滑浼氭妸鑲樺瓙鐨勮楠楀彶鏁寸悊鍑烘潵锛屾瘡骞村彂涓€閬嶃€傛柟鑸熷湪楠楋紝鎴戜滑鍦ㄧ嚎&rdquo;銆?ldquo;鍏紑鏃犺€伙紝澶╃敓涓嬫祦&rdquo;&hellip;&hellip;鎴戜篃涓€璧疯捣璇夈€?/p>
+
+鍙︼紝宕旀案鍏冧互鍓嶉€犺埃璇存垜鐢?00涓囩編鍏冨湪缇庡浗涔拌豹瀹咃紝鐜板湪鏀瑰彛璇存槸67涓囩編鍏?ldquo;璞畢&rdquo;銆傞偅涔熷氨鎶樺悎浜烘皯甯?00澶氫竾锛屽寳浜櫘閫氬搴兘涔板緱璧凤紝宕旀案鍏冭涓烘垜鐨勫搴敹鍏ヨ繛鍖椾含鏅€氬搴兘涓嶅锛熶粬鍙堜笉鏄病鏈夎杩囪繖鐐归挶锛?00澶氫竾鍏冧汉姘戝竵锛屼篃灏卞宕旀案鍏冨幓缇庡浗7娆＄殑璐圭敤銆?nbsp;
+						
+										

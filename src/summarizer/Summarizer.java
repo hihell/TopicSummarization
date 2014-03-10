@@ -27,6 +27,8 @@ public class Summarizer {
 
     public final int L = 5;
 
+    public static final String articlePath = "/Users/jiusi/Desktop/fzz-cyy";
+
 
     public final String coverageResultPath = "./summarization/coverage";
     public final String dominateResultPath = "./summarization/dominate";
@@ -54,7 +56,7 @@ public class Summarizer {
         callCount = 0;
     }
 
-    public ArrayList<Snippet> coverage(ArrayList<Snippet> snippets) {
+    public ArrayList<Snippet> coverage(ArrayList<Snippet> snippets) throws Exception{
 
         ArrayList<HashMap<String, Integer>> snippetList = Snippet.getHashMapSnippets(snippets);
         ArrayList<String> snippetTextList = Snippet.getOriginalSnippets(snippets);
@@ -119,17 +121,22 @@ public class Summarizer {
     }
 
     public ArrayList<Snippet> cover_dominate_method(String topicName, ArrayList<Snippet> snippetList, HashMap<String, Integer> query) throws IOException {
+        try {
+            ArrayList<Snippet> co = coverage(snippetList);
 
-        ArrayList<Snippet> co = coverage(snippetList);
-        if(co.size() == 0) {
-            System.err.println("didn't find coverage set");
+            if(co.size() == 0) {
+                System.err.println("didn't find coverage set");
+                return null;
+            }
+            ArrayList<Snippet> mw = dominate(co, query);
+
+            ResultWriter.writeSummerization(topicName, mw, this.cdResultPath);
+
+            return mw;
+        } catch (Exception e) {
+            e.printStackTrace();
             return null;
         }
-        ArrayList<Snippet> mw = dominate(co, query);
-
-        ResultWriter.writeSummerization(topicName, mw, this.cdResultPath);
-
-        return mw;
     }
 
 
@@ -142,11 +149,17 @@ public class Summarizer {
             System.err.println("didn't find dominate set");
             return null;
         }
-        ArrayList<Snippet> co = coverage(mw);
+        try{
+            ArrayList<Snippet> co = coverage(mw);
+            ResultWriter.writeSummerization(topicName, co, this.dcResultPath);
+            return co;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
 
-        ResultWriter.writeSummerization(topicName, co, this.dcResultPath);
 
-        return co;
+
     }
 
 
@@ -326,18 +339,24 @@ public class Summarizer {
     }
 
     public static void main(String args[]) {
+
+
+
         Summarizer s = new Summarizer();
 
-        SnippetGenerator snippetGenerator = new SnippetGenerator(new IKWordSpliter("stopcn.txt"));
+        Filter.purgeArticleFolder(s.articlePath);
+
+        SnippetGenerator snippetGenerator = new SnippetGenerator(new IKWordSpliter("stopcn.txt"), s.articlePath);
 
         HashMap<String, Integer> query = new HashMap<String, Integer>();
-        query.put("委员会", 1);
-        query.put("调查", 1);
-        query.put("反思", 1);
-        query.put("贫困", 1);
+        query.put("方舟子", 1);
+        query.put("崔永元", 1);
+        query.put("起诉", 1);
+        query.put("打假", 1);
+        query.put("转基因", 1);
 
         try {
-            HashMap<String, ArrayList<String>> topicFilesPath = ResultReader.topicResultReader("./kmeans.txt");
+            HashMap<String, ArrayList<String>> topicFilesPath = ResultReader.topicResultReader("./birch.txt");
             ArrayList<String> topicList = new ArrayList<String>(topicFilesPath.keySet());
 
             for(String topic: topicList) {
@@ -348,11 +367,14 @@ public class Summarizer {
                 ArrayList<Snippet> snippets = Filter.filterSmallSnippet(snippetGenerator.snippets);
                 snippets = Filter.filterLowRankSnippet(snippets, maxSize4BF);
 
-//                s.cover_dominate_method(topic, snippets, query);
+                if (snippets.size() == 0) {
+                    continue;
+                }
+
+                s.cover_dominate_method(topic, snippets, query);
 //                s.dominate_cover_method(topic, snippets, query);
 //                s.cover_simplification_method(topic, snippets);
-
-                s.dominate_simplification_method(topic, snippets);
+//                s.dominate_simplification_method(topic, snippets);
             }
 
         } catch (IOException e) {

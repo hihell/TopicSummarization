@@ -1,24 +1,9 @@
-﻿　　8 月3日，因“红十字”事件引发轩然大波的郭美美母女接受了郎咸平独家专访。但在20多分钟的专访中，两人的多个说法均备受质疑，亦有不少网友认为，郎咸平有被郭美美母女利用，甚至是为其做“托”的嫌疑。
-.Video-Main-Article-QQ {position:relative;background:none;}
-.Video-Main-Article-QQ a:hover.pic,Video-Main-Article-QQ a:hover.vtime{ text-decoration:none;}
-.Video-Main-Article-QQ .pic img{width:160px;height:120px;margin-bottom:6px;border:#c6c6c6 1px solid;}
-.Video-Main-Article-QQ .vbutton{cursor:pointer;display:block;position:absolute;left:15px;top:90px;width:25px;height:25px;
-background:url("http://mat1.gtimg.com/worldcup/video/qiudui/video.png") no-repeat ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/video/qiudui/video.png',sizingMethod='scale');}
-.Video-Main-Article-QQ .vtime{display:block;position:absolute;left:38px;top:105px;width:120px;height:18px;_height:19px;padding-right:3px;color:#fff;text-align:right;font-family:tahoma;font-size:14px;overflow:hidden;
-background:url("http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png") right top repeat-y ;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mat1.gtimg.com/worldcup/2010/bdhui_pic_bg.png',sizingMethod='scale');}
-.videoplayer_Aritcle_QQ {position:relative;float:left;width:300px;margin:10px 14px 6px 0;padding:8px;*padding-bottom:2px;_padding-bottom:2px;border:#d1e2f4 1px solid;background:#f3f8fe;}
-.videoplayer_Aritcle_QQ a{color:#0d3a8d;text-decoration:none;}
-.videoplayer_Aritcle_QQ a:hover{color:#0d3a8d;text-decoration:underline;}
-.videoplayer_Aritcle_QQ .video_link{margin:8px 0 4px 0;font-size:14px;text-align:left;}
-.videoplayer_Aritcle_QQ .video_source{margin:8px 0 4px 0;font-size:12px;text-align:left;}
-.videoplayer_Aritcle_QQ .fl{float:left;}
-.videoplayer_Aritcle_QQ .fr{float:right;}
+﻿
+				鎹煇缃戠珯鎶ラ亾锛屽磾姘稿厓寰堥暱涓€娈垫椂闂撮兘鏄垎璁哄叧娉ㄧ殑鐒︾偣銆傛棩鍓嶏紝鍏舵湰浜鸿瘉瀹炲凡绂诲紑澶鍔犲叆涓浗浼犲獟澶у宸ヤ綔锛屽苟鐖嗗嚭姝や妇涓庢柟鑸熷瓙鐨勯獋鎴樻湁鍏炽€?/p>
 
+鏄ㄥぉ1鏃惰锛屽磾姘稿厓鍙戝竷寰崥&ldquo;&lsquo;鑲樺瓙&rsquo;寮€濮嬫敾鍑绘垜鐖朵翰浜嗭紝褰撶劧瑕侀棶鍊欎竴涓嬪畠姣嶄翰&rdquo;鍐呭锛岄檮鏈夊ぇ娈垫枃瀛楋紝鏂囦腑浠?ldquo;鏂硅垷瀛愪笌姣嶄翰浜夎鍏舵槸鍚︿负浜茬敓&rdquo;鐨勫璇濆唴瀹硅繘琛屽洖鍑昏鍒恒€?/p>
+
+璇ュ井鍗氬紩鏉ヤ笂鍗冪綉姘戝洿瑙傦紝鏈夌綉姘戣瘎璁虹О&ldquo;灏忓磾鏈夌偣鎺夎繘鑷繁鐨勫潙浜嗭紝鐞嗘€ц浜嬪緢闅惧悧锛?rdquo;闅忓悗锛屽磾姘稿厓鍥炲琛ㄧず&ldquo;涓嶉毦锛屾垜鍜屾墍鏈変汉閮界悊鎬ф帰璁紝&lsquo;鑲樺瓙&rsquo;闄ゅ锛屾姳姝夛紒&rdquo;
+瀵规锛屾柟鑸熷瓙鍙戝井鍗氭€掓枼鏌愮綉绔欐槸閫犺埃缃戠珯锛屽惁璁?ldquo;闂€?rdquo;宕旀案鍏冪埗浜层€?
 		
-				
-				
-				
-				
-				
-				
-				郭美美对话郎咸平详解跑车来历
+			  

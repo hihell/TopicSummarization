@@ -15,10 +15,11 @@ public class SnippetGenerator {
 	public ArrayList<Snippet> snippets = null;
 	public WordSpliter spliter = null;
 
-    public final String articlePath = "/Users/jiusi/Desktop/gmm/";
+    public final String articlePath;
 	
-	public SnippetGenerator(WordSpliter spliter) {
+	public SnippetGenerator(WordSpliter spliter, String articlePath) {
 		this.spliter = spliter;
+        this.articlePath = articlePath;
 	}
 	
 	public ArrayList<Sentence> SplitArticle(String article_path) throws IOException {
@@ -87,7 +88,7 @@ public class SnippetGenerator {
     public void Process(ArrayList<String> files_path) throws IOException{
         ArrayList<Snippet> snippetList = new ArrayList<Snippet>();
         for(String filePath : files_path) {
-            filePath = articlePath + filePath;
+            filePath = articlePath + "/" + filePath;
             Process(filePath);
             snippetList.addAll(this.snippets);
         }
@@ -116,7 +117,7 @@ public class SnippetGenerator {
 
 
 	public static void main(String[] args) {
-        SnippetGenerator test = new SnippetGenerator(new IKWordSpliter("stopcn.txt"));
+        SnippetGenerator test = new SnippetGenerator(new IKWordSpliter("stopcn.txt"), "");
 		try {
 //			test.Process("test.txt");
 
